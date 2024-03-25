@@ -1,2 +1,3 @@
-<h1>Front End 11 Project name "Zlatmax"</h1>
+<h1>Zlatmax Clone</h1>
+<h4>Team Project</h4>
 <img src="./Watch/Watch.png">
