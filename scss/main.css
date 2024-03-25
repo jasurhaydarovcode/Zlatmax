@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+}/*# sourceMappingURL=main.css.map */
