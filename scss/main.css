@@ -23,6 +23,10 @@ body {
 .KnifeGrid .KnifeGrid__Card {
   width: 351px;
   height: 203px;
+  background-image: url(../img/Knife/knife-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .KnifeGrid .KnifeGrid__Card .KnifeGrid-Card__Text {
@@ -44,6 +48,7 @@ body {
   list-style: none;
   margin-left: -37px;
   margin-top: 30px;
+  width: 170px;
 }
 .KnifeGrid .KnifeGrid__Card .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy li::before {
   content: "●";
