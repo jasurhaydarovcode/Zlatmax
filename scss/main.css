@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -22,6 +23,10 @@ body {
 .KnifeGrid .KnifeGrid__Card {
   width: 351px;
   height: 203px;
+  background-image: url(../img/Knife/knife-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .KnifeGrid .KnifeGrid__Card .KnifeGrid-Card__Text {
@@ -36,7 +41,21 @@ body {
 .KnifeGrid .KnifeGrid__Card .KnifeGrid-Card__Text .KnifeGrid-Card-Text__line {
   width: 70px;
   height: 2px;
+  margin-top: 10px;
   background-color: #E8AA31;
+}
+.KnifeGrid .KnifeGrid__Card .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy {
+  list-style: none;
+  margin-left: -37px;
+  margin-top: 30px;
+  width: 170px;
+}
+.KnifeGrid .KnifeGrid__Card .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy li::before {
+  content: "●";
+  color: #E8AA31;
+  font-weight: 900;
+  display: inline-block;
+  width: 1em;
 }
 .KnifeGrid .KnifeGrid__Card:hover {
   margin-top: -10px;
