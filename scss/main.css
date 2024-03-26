@@ -292,6 +292,11 @@ body {
   width: 265px;
   height: 600px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  animation-name: oneAndone;
+  animation-duration: 2s;
+}
+.KnifeThree .KnifeThree__Card:hover {
+  transform: scale(1.02);
 }
 
 @media only screen and (max-width: 1142px) {
