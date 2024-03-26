@@ -256,6 +256,7 @@
     // height: max-content;
     display: grid;
     grid-template-columns: auto auto;
+    padding: 30px 0;
     .KnifeNext__Second{
         font-weight: 700;
         font-size: 30px;    
@@ -265,10 +266,23 @@
         padding-left: 10%;
     }
     .KnifeNext__Go{
-        margin-left: 50%;
+        // margin-left: 50%;
+        text-align: right;
+        margin-right: 10%;
         color: $grey-Grey-clr;
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
+    }
+}
+.KnifeThree{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 20px;
+    .KnifeThree__Card {
+        width: 265px;
+        height: 600px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 }
