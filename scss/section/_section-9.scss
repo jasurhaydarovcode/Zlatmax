@@ -1,0 +1,9 @@
+.product {
+    width: 86%;
+    height: max-content;
+    padding: 0 100px 0 100px;
+    .product-section {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto ;
+    }
+}
