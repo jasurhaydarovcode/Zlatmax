@@ -9,4 +9,46 @@ body {
   width: 100%;
   height: -moz-max-content;
   height: max-content;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.KnifeGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  row-gap: 20px;
+}
+.KnifeGrid .KnifeGrid__Card {
+  width: 351px;
+  height: 203px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.KnifeGrid .KnifeGrid__Card .KnifeGrid-Card__Text {
+  padding: 20px;
+}
+.KnifeGrid .KnifeGrid__Card .KnifeGrid-Card__Text a {
+  text-decoration: none;
+  color: #141414;
+  font-weight: bold;
+  font-size: 23px;
+}
+.KnifeGrid .KnifeGrid__Card .KnifeGrid-Card__Text .KnifeGrid-Card-Text__line {
+  width: 70px;
+  height: 2px;
+  background-color: #E8AA31;
+}
+.KnifeGrid .KnifeGrid__Card:hover {
+  margin-top: -10px;
+}
+
+@media only screen and (max-width: 1091px) {
+  .KnifeGrid {
+    grid-template-columns: auto auto;
+  }
+}
+@media only screen and (max-width: 748px) {
+  .KnifeGrid {
+    grid-template-columns: auto;
+  }
 }/*# sourceMappingURL=main.css.map */

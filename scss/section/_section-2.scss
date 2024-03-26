@@ -1,0 +1,43 @@
+.KnifeGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    row-gap: 20px;
+    .KnifeGrid__Card{
+        width: 351px;
+        height: 203px;
+        // background-color: red;
+        // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .KnifeGrid-Card__Text{
+            padding: 20px;
+            a{
+                text-decoration: none;
+                color: $rubl-sena-black-t;
+                font-weight: bold;
+                font-size: 23px;
+            }
+            .KnifeGrid-Card-Text__line{
+                width: 70px;
+                height: 2px;
+                background-color: $yellow-clr-t;
+            }
+            .KnifeGrid-Card-Text__Kategoriy{
+                
+            }
+        }
+    }
+    .KnifeGrid__Card:hover{
+        margin-top: -10px;
+    }
+}
+@media only screen and (max-width: 1091px){
+    .KnifeGrid{
+        grid-template-columns: auto auto; 
+    }
+}
+@media only screen and (max-width: 748px){
+    .KnifeGrid{
+        grid-template-columns: auto; 
+    }
+}
