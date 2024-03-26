@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -37,6 +38,18 @@ body {
   width: 70px;
   height: 2px;
   background-color: #E8AA31;
+}
+.KnifeGrid .KnifeGrid__Card .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy {
+  list-style: none;
+  margin-left: -37px;
+  margin-top: 30px;
+}
+.KnifeGrid .KnifeGrid__Card .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy li::before {
+  content: "●";
+  color: #E8AA31;
+  font-weight: 900;
+  display: inline-block;
+  width: 1em;
 }
 .KnifeGrid .KnifeGrid__Card:hover {
   margin-top: -10px;

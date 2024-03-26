@@ -23,7 +23,18 @@
                 background-color: $yellow-clr-t;
             }
             .KnifeGrid-Card-Text__Kategoriy{
-                
+                list-style: none;
+                margin-left: -37px;
+                margin-top: 30px;
+                li::before{
+                    content: "●";
+                    // content: "\2022";
+                    color: $yellow-clr-t;
+                    font-weight: 900;
+                    display: inline-block;
+                    // margin-left: -1em;
+                    width: 1em;
+                }
             }
         }
     }
