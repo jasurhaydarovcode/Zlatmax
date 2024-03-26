@@ -10,8 +10,6 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: right;
-        // background-color: red;
-        // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         .KnifeGrid-Card__Text{
             padding: 20px;
@@ -43,21 +41,8 @@
                 }
             }
         }
-        .KnifeGrid-Card__Img{
-            // Bu yerda Mening Rasmim bo'lishi kerak edi
-        }
     }
     .KnifeGrid__Card:hover{
         margin-top: -10px;
-    }
-}
-@media only screen and (max-width: 1091px){
-    .KnifeGrid{
-        grid-template-columns: auto auto; 
-    }
-}
-@media only screen and (max-width: 748px){
-    .KnifeGrid{
-        grid-template-columns: auto; 
     }
 }
