@@ -44,5 +44,210 @@
     }
     .KnifeGrid__Card:hover{
         margin-top: -10px;
+    }.KnifeGrid__Card2:hover{
+        margin-top: -10px;
+    }.KnifeGrid__Card3:hover{
+        margin-top: -10px;
+    }.KnifeGrid__Card4:hover{
+        margin-top: -10px;
+    }.KnifeGrid__Card5:hover{
+        margin-top: -10px;
+    }.KnifeGrid__Card6:hover{
+        margin-top: -10px;
+    }
+    .KnifeGrid__Card2{
+        width: 351px;
+        height: 203px;
+        background-image: url(../img/Knife/knife-2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .KnifeGrid-Card__Text{
+            padding: 20px;
+            a{
+                text-decoration: none;
+                color: $rubl-sena-black-t;
+                font-weight: bold;
+                font-size: 23px;
+            }
+            .KnifeGrid-Card-Text__line{
+                width: 70px;
+                height: 2px;
+                margin-top: 10px;
+                background-color: $yellow-clr-t;
+            }
+            .KnifeGrid-Card-Text__Kategoriy{
+                list-style: none;
+                margin-left: -37px;
+                margin-top: 30px;
+                width: 170px;
+                li::before{
+                    content: "●";
+                    // content: "\2022";
+                    color: $yellow-clr-t;
+                    font-weight: 900;
+                    display: inline-block;
+                    // margin-left: -1em;
+                    width: 1em;
+                }
+            }
+        }
+    }
+    .KnifeGrid__Card3{
+        width: 351px;
+        height: 203px;
+        background-image: url(../img/Knife/knife-3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .KnifeGrid-Card__Text{
+            padding: 20px;
+            a{
+                text-decoration: none;
+                color: $rubl-sena-black-t;
+                font-weight: bold;
+                font-size: 23px;
+            }
+            .KnifeGrid-Card-Text__line{
+                width: 70px;
+                height: 2px;
+                margin-top: 10px;
+                background-color: $yellow-clr-t;
+            }
+            .KnifeGrid-Card-Text__Kategoriy{
+                list-style: none;
+                margin-left: -37px;
+                margin-top: 30px;
+                width: 170px;
+                li::before{
+                    content: "●";
+                    // content: "\2022";
+                    color: $yellow-clr-t;
+                    font-weight: 900;
+                    display: inline-block;
+                    // margin-left: -1em;
+                    width: 1em;
+                }
+            }
+        }
+    }
+    .KnifeGrid__Card4{
+        width: 351px;
+        height: 203px;
+        background-image: url(../img/Knife/knife-4.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .KnifeGrid-Card__Text{
+            padding: 20px;
+            a{
+                text-decoration: none;
+                color: $rubl-sena-black-t;
+                font-weight: bold;
+                font-size: 23px;
+            }
+            .KnifeGrid-Card-Text__line{
+                width: 70px;
+                height: 2px;
+                margin-top: 10px;
+                background-color: $yellow-clr-t;
+            }
+            .KnifeGrid-Card-Text__Kategoriy{
+                list-style: none;
+                margin-left: -37px;
+                margin-top: 30px;
+                width: 170px;
+                li::before{
+                    content: "●";
+                    // content: "\2022";
+                    color: $yellow-clr-t;
+                    font-weight: 900;
+                    display: inline-block;
+                    // margin-left: -1em;
+                    width: 1em;
+                }
+            }
+        }
+    }
+    .KnifeGrid__Card5{
+        width: 351px;
+        height: 203px;
+        background-image: url(../img/Knife/knife-5.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .KnifeGrid-Card__Text{
+            padding: 20px;
+            a{
+                text-decoration: none;
+                color: $rubl-sena-black-t;
+                font-weight: bold;
+                font-size: 23px;
+            }
+            .KnifeGrid-Card-Text__line{
+                width: 70px;
+                height: 2px;
+                margin-top: 10px;
+                background-color: $yellow-clr-t;
+            }
+            .KnifeGrid-Card-Text__Kategoriy{
+                list-style: none;
+                margin-left: -37px;
+                margin-top: 30px;
+                width: 170px;
+                li::before{
+                    content: "●";
+                    // content: "\2022";
+                    color: $yellow-clr-t;
+                    font-weight: 900;
+                    display: inline-block;
+                    // margin-left: -1em;
+                    width: 1em;
+                }
+            }
+        }
+    }
+    .KnifeGrid__Card6{
+        width: 351px;
+        height: 203px;
+        background-image: url(../img/Knife/knife-6.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .KnifeGrid-Card__Text{
+            padding: 20px;
+            a{
+                text-decoration: none;
+                color: $rubl-sena-black-t;
+                font-weight: bold;
+                font-size: 23px;
+            }
+            .KnifeGrid-Card-Text__line{
+                width: 70px;
+                height: 2px;
+                margin-top: 10px;
+                background-color: $yellow-clr-t;
+            }
+            .KnifeGrid-Card-Text__Kategoriy{
+                list-style: none;
+                margin-left: -37px;
+                margin-top: 30px;
+                width: 170px;
+                li::before{
+                    content: "●";
+                    // content: "\2022";
+                    color: $yellow-clr-t;
+                    font-weight: 900;
+                    display: inline-block;
+                    // margin-left: -1em;
+                    width: 1em;
+                }
+            }
+        }
     }
 }
