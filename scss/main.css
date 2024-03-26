@@ -299,7 +299,7 @@ body {
 .KnifeThree .KnifeThree__Card .KnifeThree-Card__KNFimg {
   width: 100%;
   height: 210px;
-  background-image: url(../img/Knife/1s-0.png);
+  background-image: url(../img/Knife/01s\ 1.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -360,7 +360,6 @@ body {
   transform: scale(1.02);
 }
 
-<<<<<<< HEAD
 .cards-section {
   width: 100%;
   height: -moz-max-content;
@@ -616,8 +615,6 @@ body {
     height: 150px !important;
   }
 }
-=======
->>>>>>> 8929c51a5e5f4387790961f22a2fb5ac4598b2c9
 .product {
   width: 86%;
   height: -moz-max-content;
