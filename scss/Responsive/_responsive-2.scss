@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1142px){
+    .KnifeThree{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media only screen and (max-width: 1091px){
+    .KnifeGrid{
+        grid-template-columns: auto auto; 
+    }
+}
+@media only screen and (max-width: 865px){
+    .KnifeThree{
+        grid-template-columns: auto auto; 
+    }
+}
+@media only screen and (max-width: 748px){
+    .KnifeGrid{
+        grid-template-columns: auto; 
+    }
+    .KnifeNext__Go{
+        display: none;
+    }
+}
+@media only screen and (max-width: 584px){
+    .KnifeThree{
+        grid-template-columns: auto;
+    }
+}
