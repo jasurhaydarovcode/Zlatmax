@@ -58,22 +58,22 @@ body {
   width: 1em;
 }
 .KnifeGrid .KnifeGrid__Card:hover {
-  margin-top: -10px;
+  transform: scale(1.02);
 }
 .KnifeGrid .KnifeGrid__Card2:hover {
-  margin-top: -10px;
+  transform: scale(1.02);
 }
 .KnifeGrid .KnifeGrid__Card3:hover {
-  margin-top: -10px;
+  transform: scale(1.02);
 }
 .KnifeGrid .KnifeGrid__Card4:hover {
-  margin-top: -10px;
+  transform: scale(1.02);
 }
 .KnifeGrid .KnifeGrid__Card5:hover {
-  margin-top: -10px;
+  transform: scale(1.02);
 }
 .KnifeGrid .KnifeGrid__Card6:hover {
-  margin-top: -10px;
+  transform: scale(1.02);
 }
 .KnifeGrid .KnifeGrid__Card2 {
   width: 351px;
@@ -287,18 +287,80 @@ body {
   grid-template-columns: auto auto auto auto;
   justify-content: center;
   gap: 20px;
+  padding: 100px;
 }
 .KnifeThree .KnifeThree__Card {
   width: 265px;
-  height: 600px;
+  height: 540px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   animation-name: oneAndone;
   animation-duration: 2s;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__KNFimg {
+  width: 100%;
+  height: 210px;
+  background-image: url(../img/Knife/1s-0.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__KNFname {
+  padding-left: 30px;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__Between {
+  display: flex;
+  justify-content: space-around;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__Between h5 {
+  color: #ABABAB;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__BetweenStar {
+  display: flex;
+  justify-content: space-around;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__BetweenStar div {
+  margin-top: 20px;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__horizon {
+  width: 225px;
+  height: 1px;
+  background-color: #ABABAB;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__money {
+  display: flex;
+  justify-content: space-around;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__money img {
+  width: 20px;
+  height: 20px;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__money div {
+  margin-top: 20px;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__money div img {
+  margin-left: 10px;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__btn {
+  border: none;
+  background-color: #E8AA31;
+  color: #fff;
+  width: 240px;
+  height: 40px;
+  border-radius: 3px;
+  margin-left: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__btn .KnifeThree-Card-btn_sell {
+  margin-left: 20px;
+}
+.KnifeThree .KnifeThree__Card .KnifeThree-Card__btn:hover {
+  background-color: rgba(232, 171, 49, 0.8784313725);
 }
 .KnifeThree .KnifeThree__Card:hover {
   transform: scale(1.02);
 }
 
+<<<<<<< HEAD
 .cards-section {
   width: 100%;
   height: -moz-max-content;
@@ -554,6 +616,8 @@ body {
     height: 150px !important;
   }
 }
+=======
+>>>>>>> 8929c51a5e5f4387790961f22a2fb5ac4598b2c9
 .product {
   width: 86%;
   height: -moz-max-content;
