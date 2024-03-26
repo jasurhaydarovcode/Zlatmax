@@ -261,6 +261,25 @@ body {
   width: 1em;
 }
 
+.KnifeNext {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.KnifeNext .KnifeNext__Second {
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+  color: #141414;
+  padding-left: 10%;
+}
+.KnifeNext .KnifeNext__Go {
+  margin-left: 50%;
+  color: #ABABAB;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 1091px) {
   .KnifeGrid {
     grid-template-columns: auto auto;

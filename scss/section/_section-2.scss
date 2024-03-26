@@ -251,3 +251,24 @@
         }
     }
 }
+.KnifeNext{
+    // width: 100%;
+    // height: max-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    .KnifeNext__Second{
+        font-weight: 700;
+        font-size: 30px;    
+        text-decoration: none;
+        color: $rubl-sena-black-t;
+        // padding-left: 50px;
+        padding-left: 10%;
+    }
+    .KnifeNext__Go{
+        margin-left: 50%;
+        color: $grey-Grey-clr;
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+}
