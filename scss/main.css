@@ -6,6 +6,11 @@ body {
   font-family: Montserrat, sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 100%;
   height: -moz-max-content;
@@ -403,6 +408,261 @@ body {
   transform: scale(1.02);
 }
 
+.cards-section {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+}
+.cards-section .cards-section__items {
+  width: 100%;
+  padding: 50px 0;
+}
+.cards-section .cards-section__items .cards-section-items__subtitle {
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards-section .cards-section__items .cards-section-items__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards-section .cards-section__items .cards-section-items__title p {
+  letter-spacing: 1px;
+}
+.cards-section .cards-section__items .cards-section-items__title i {
+  color: #E8AA31;
+}
+.cards-section .cards-section__items .cards-section-items__title-cards {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle {
+  width: 290px;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle .img-knife {
+  width: 250px;
+  height: 180px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle h3 {
+  font-size: 20px;
+}
+.cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle .title-cards__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle .title-cards__title p {
+  color: #ABABAB;
+}
+.cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle .title-cards__title i {
+  font-size: 25px;
+  color: #E8AA31;
+}
+.cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle .title-cards__title img {
+  width: 23px;
+  height: 23px;
+  padding: 0 10px;
+}
+.cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle .cards-section-items__btn-card {
+  width: 100%;
+  height: 40px;
+  background-color: #E8AA31;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 600;
+}
+.cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle .cards-section-items__btn-card p {
+  padding: 0 10px;
+}
+
+.second-cards-section {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  background-image: url(../../../img/headir/pag-1Back.png);
+  background-size: cover;
+}
+.second-cards-section .second-cards-section__items {
+  width: 100%;
+  padding: 50px 0;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title {
+  width: 300px;
+  height: 600px;
+  color: #fff;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title h2, .second-cards-section .second-cards-section__items .second-cards-section-items__title p {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  opacity: 70%;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title h2 {
+  opacity: 100%;
+  font-size: 30px;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title .title-cards__title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #E8AA31;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title .title-cards__title p {
+  opacity: 100%;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle {
+  width: 290px;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .img-knife {
+  width: 250px;
+  height: 180px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle h3 {
+  font-size: 20px;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title p {
+  color: #ABABAB;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title i {
+  font-size: 25px;
+  color: #E8AA31;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title img {
+  width: 23px;
+  height: 23px;
+  padding: 0 10px;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .second-cards-section-items__btn-card {
+  width: 100%;
+  height: 40px;
+  background-color: #E8AA31;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 600;
+}
+.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .second-cards-section-items__btn-card p {
+  padding: 0 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .title-cards__subtitle {
+    width: 230px !important;
+    font-size: 10px;
+  }
+  .title-cards__subtitle .img-knife {
+    width: 100% !important;
+    height: 150px !important;
+  }
+  .bi-star-fill {
+    font-size: 15px !important;
+  }
+  .second-cards-section-items__title {
+    width: 230px !important;
+  }
+  .title-cards__subtitle {
+    width: 230px !important;
+    font-size: 10px;
+  }
+  .title-cards__subtitle .img-knife {
+    width: 100% !important;
+    height: 150px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .cards-section-items__title-cards {
+    grid-template-columns: auto auto auto !important;
+    grid-template-rows: auto !important;
+  }
+  .second-cards-section-items__title-cards {
+    grid-template-columns: auto auto auto !important;
+    grid-template-rows: auto !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cards-section-items__title-cards {
+    grid-template-columns: auto auto !important;
+    grid-template-rows: auto !important;
+  }
+  .second-cards-section-items__title-cards {
+    grid-template-columns: auto auto !important;
+    grid-template-rows: auto !important;
+  }
+}
+@media only screen and (max-width: 551px) {
+  .cards-section-items__title-cards {
+    grid-template-columns: auto !important;
+    grid-template-rows: auto !important;
+  }
+  .cards-section-items__title-cards .title-cards__subtitle {
+    width: 380px !important;
+    font-size: 10px;
+  }
+  .cards-section-items__title-cards .title-cards__subtitle .img-knife {
+    width: 100% !important;
+    height: 150px !important;
+  }
+  .second-cards-section-items__title-cards {
+    grid-template-columns: auto !important;
+    grid-template-rows: auto !important;
+    height: 1980px !important;
+  }
+  .second-cards-section-items__title-cards .second-cards-section-items__title {
+    width: 380px !important;
+  }
+  .second-cards-section-items__title-cards .title-cards__subtitle {
+    width: 380px !important;
+    font-size: 10px;
+  }
+  .second-cards-section-items__title-cards .title-cards__subtitle .img-knife {
+    width: 100% !important;
+    height: 150px !important;
+  }
+}
 @media only screen and (max-width: 1142px) {
   .KnifeThree {
     grid-template-columns: auto auto auto;
