@@ -656,4 +656,64 @@ body {
     width: 100% !important;
     height: 150px !important;
   }
+}
+@media only screen and (max-width: 551px) {
+  .cards-section-items__title-cards {
+    grid-template-columns: auto !important;
+    grid-template-rows: auto !important;
+  }
+  .cards-section-items__title-cards .title-cards__subtitle {
+    width: 350px !important;
+    font-size: 10px;
+  }
+  .cards-section-items__title-cards .title-cards__subtitle .img-knife {
+    width: 100% !important;
+    height: 150px !important;
+  }
+  .second-cards-section-items__title-cards {
+    grid-template-columns: auto !important;
+    grid-template-rows: auto !important;
+    height: 1980px !important;
+  }
+  .second-cards-section-items__title-cards .second-cards-section-items__title {
+    width: 350px !important;
+  }
+  .second-cards-section-items__title-cards .title-cards__subtitle {
+    width: 350px !important;
+    font-size: 10px;
+  }
+  .second-cards-section-items__title-cards .title-cards__subtitle .img-knife {
+    width: 100% !important;
+    height: 150px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .cards-section-items__title-cards {
+    grid-template-columns: auto !important;
+    grid-template-rows: auto !important;
+  }
+  .cards-section-items__title-cards .title-cards__subtitle {
+    width: 300px !important;
+    font-size: 10px;
+  }
+  .cards-section-items__title-cards .title-cards__subtitle .img-knife {
+    width: 100% !important;
+    height: 150px !important;
+  }
+  .second-cards-section-items__title-cards {
+    grid-template-columns: auto !important;
+    grid-template-rows: auto !important;
+    height: 1980px !important;
+  }
+  .second-cards-section-items__title-cards .second-cards-section-items__title {
+    width: 300px !important;
+  }
+  .second-cards-section-items__title-cards .title-cards__subtitle {
+    width: 300px !important;
+    font-size: 10px;
+  }
+  .second-cards-section-items__title-cards .title-cards__subtitle .img-knife {
+    width: 100% !important;
+    height: 150px !important;
+  }
 }/*# sourceMappingURL=main.css.map */
