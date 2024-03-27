@@ -92,6 +92,10 @@ body {
 .KnifeBg .KnifeBg__TextL .KnifeBg-TextL__btn:hover {
   background-color: rgba(232, 171, 49, 0.8745098039);
 }
+.KnifeBg .KnifeBg__TextL .KnifeBg-TextL__Sell {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
 
 .KnifeGrid {
   display: grid;

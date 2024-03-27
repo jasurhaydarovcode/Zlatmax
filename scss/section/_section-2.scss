@@ -32,6 +32,10 @@
         .KnifeBg-TextL__btn:hover{
             background-color: #e8ab31df;
         }
+        .KnifeBg-TextL__Sell{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
     }
 }
 .KnifeGrid{
