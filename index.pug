@@ -21,16 +21,19 @@ html(lang="en")
         
     body 
         // * =============== Section-1 Nodir's ===============
-        section.section-1 
-                nav.navbar
-                    a.navbar-top(href='#') 
-                        img(src="" alt=".")
-                    a.navbar-top(href='#') 
-                        img(src="" alt=".")
-                    a.navbar-top(href='#') 
-                        img(src="" alt=".")
-                    a.navbar-top(href='#') 
-                        img(src="" alt=".")
+        section.navbar__top__item
+                ul.navbar__items
+                    li.nav__items__item
+                        a.nav__items__item__link(href='#') O нас
+                    li.nav__items__item
+                        a.nav__items__item__link(href='#') Оплата и доставка
+                    li.nav__items__item
+                        a.nav__items__item__link(href='#') Новости
+                    li.nav__items__item
+                        a.nav__items__item__link(href='#') Контакты
+                    .nav__items__item7
+                        img(src="../img/headir/avatar.png", alt="")
+                        a.nav-link(href='#')  Личный кабинет
         // * =============== Section-2 Jasur's ===============
         .container
             div.KnifeGrid
@@ -87,11 +90,76 @@ html(lang="en")
             a(href="").KnifeNext__Go Перейти в каталог
         div.KnifeThree
             .KnifeThree__Card 
+                div.KnifeThree-Card__KNFimg
+                h3.KnifeThree-Card__KNFname Нож Лиса
+                div.KnifeThree-Card__Between
+                    h5 95х18
+                    h5 Орех, Алюминий
+                div.KnifeThree-Card__BetweenStar
+                    div ⭐⭐⭐⭐⭐
+                    h5 12 отзывов
+                hr.KnifeThree-Card__horizon
+                div.KnifeThree-Card__money
+                    h5 2 719 р.
+                    div 
+                        img(src="../img/Stars/Group.png", alt="sena")
+                        img(src="../img/Stars/Hearts.png", alt="Heart logo")
+                button.KnifeThree-Card__btn В корзину
+                    img.KnifeThree-Card-btn_sell(src="../img/Stars/Group 2.png", alt="sell")
             .KnifeThree__Card 
+                div.KnifeThree-Card__KNFimg
+                h3.KnifeThree-Card__KNFname Нож Лиса
+                div.KnifeThree-Card__Between
+                    h5 95х18
+                    h5 Орех, Алюминий
+                div.KnifeThree-Card__BetweenStar
+                    div ⭐⭐⭐⭐⭐
+                    h5 12 отзывов
+                hr.KnifeThree-Card__horizon
+                div.KnifeThree-Card__money
+                    h5 2 719 р.
+                    div 
+                        img(src="../img/Stars/Group.png", alt="sena")
+                        img(src="../img/Stars/Hearts.png", alt="Heart logo")
+                button.KnifeThree-Card__btn В корзину
+                    img.KnifeThree-Card-btn_sell(src="../img/Stars/Group 2.png", alt="sell")
             .KnifeThree__Card 
-            .KnifeThree__Card 
-        // * =============== Section-3 ===============
+                div.KnifeThree-Card__KNFimg
+                h3.KnifeThree-Card__KNFname Нож Лиса
+                div.KnifeThree-Card__Between
+                    h5 95х18
+                    h5 Орех, Алюминий
+                div.KnifeThree-Card__BetweenStar
+                    div ⭐⭐⭐⭐⭐
+                    h5 12 отзывов
+                hr.KnifeThree-Card__horizon
+                div.KnifeThree-Card__money
+                    h5 2 719 р.
+                    div 
+                        img(src="../img/Stars/Group.png", alt="sena")
+                        img(src="../img/Stars/Hearts.png", alt="Heart logo")
+                button.KnifeThree-Card__btn В корзину
+                    img.KnifeThree-Card-btn_sell(src="../img/Stars/Group 2.png", alt="sell")
+            .KnifeThree__Card
+                div.KnifeThree-Card__KNFimg
+                h3.KnifeThree-Card__KNFname Нож Лиса
+                div.KnifeThree-Card__Between
+                    h5 95х18
+                    h5 Орех, Алюминий
+                div.KnifeThree-Card__BetweenStar
+                    div ⭐⭐⭐⭐⭐
+                    h5 12 отзывов
+                hr.KnifeThree-Card__horizon
+                div.KnifeThree-Card__money
+                    h5 2 719 р.
+                    div 
+                        img(src="../img/Stars/Group.png", alt="sena")
+                        img(src="../img/Stars/Hearts.png", alt="Heart logo")
+                button.KnifeThree-Card__btn В корзину
+                    img.KnifeThree-Card-btn_sell(src="../img/Stars/Group 2.png", alt="sell") 
 
+        // * =============== Section-3 ===============
+        include pug/compilation/cards.pug
         // * =============== Section-4 ===============
 
         // * =============== Section-5 ===============

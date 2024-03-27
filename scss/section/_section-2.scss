@@ -43,17 +43,17 @@
         }
     }
     .KnifeGrid__Card:hover{
-        margin-top: -10px;
+        transform: scale(1.02);
     }.KnifeGrid__Card2:hover{
-        margin-top: -10px;
+        transform: scale(1.02);
     }.KnifeGrid__Card3:hover{
-        margin-top: -10px;
+        transform: scale(1.02);
     }.KnifeGrid__Card4:hover{
-        margin-top: -10px;
+        transform: scale(1.02);
     }.KnifeGrid__Card5:hover{
-        margin-top: -10px;
+        transform: scale(1.02);
     }.KnifeGrid__Card6:hover{
-        margin-top: -10px;
+        transform: scale(1.02);
     }
     .KnifeGrid__Card2{
         width: 351px;
@@ -280,12 +280,77 @@
     grid-template-columns: auto auto auto auto;
     justify-content: center;
     gap: 20px;
+    padding: 100px;
     .KnifeThree__Card {
         width: 265px;
-        height: 600px;
+        height: 540px;
+        // padding-bottom: 30px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         animation-name: oneAndone;
         animation-duration: 2s;
+        .KnifeThree-Card__KNFimg{
+            width: 100%;
+            height: 210px;
+            background-image: url(../img/Knife/01s\ 1.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .KnifeThree-Card__KNFname{
+            padding-left: 30px;
+        }
+        .KnifeThree-Card__Between{
+            display: flex;
+            justify-content: space-around;
+            h5{
+                color: $grey-Grey-clr;
+            }
+        }
+        .KnifeThree-Card__BetweenStar{
+            display: flex;
+            justify-content: space-around;
+            div{
+                margin-top: 20px;
+            }
+            h5{
+                //empty
+            }
+        }
+        .KnifeThree-Card__horizon{
+            width: 225px;
+            height: 1px;
+            background-color: $grey-Grey-clr;
+        }
+        .KnifeThree-Card__money{
+            display: flex;
+            justify-content: space-around;
+            img{
+                width: 20px;
+                height: 20px;
+            }
+            div{
+                margin-top: 20px;
+                img{
+                    margin-left: 10px;
+                }
+            }
+        }
+        .KnifeThree-Card__btn{
+            border: none;
+            background-color: $yellow-clr-t;
+            color: $f-white-clr;
+            width: 240px;
+            height: 40px;
+            border-radius: 3px;
+            margin-left: 12px;
+            font-size: 16px;
+            cursor: pointer;
+            .KnifeThree-Card-btn_sell{
+                margin-left: 20px;
+            }
+        }
+        .KnifeThree-Card__btn:hover{
+            background-color: #e8ab31e0;
+        }
     }
     .KnifeThree__Card:hover{
         transform: scale(1.02);
