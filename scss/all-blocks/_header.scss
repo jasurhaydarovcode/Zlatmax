@@ -10,6 +10,7 @@
     }
 
     .navbar__items{
+        margin: 0;
         width: max-content;
         height: 60px;
         display: flex;
@@ -22,9 +23,9 @@
     }
 
     .nav__items__item__avatar{
-        align-items: start;
+        align-items: center;
         display: flex;
-        justify-content: end;
+        justify-content: center;
     }
 }
 

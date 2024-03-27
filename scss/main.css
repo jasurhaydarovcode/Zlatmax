@@ -25,6 +25,7 @@ body {
   color: rgb(255, 221, 1);
 }
 .navbar__top__item .navbar__items {
+  margin: 0;
   width: -moz-max-content;
   width: max-content;
   height: 60px;
@@ -37,9 +38,9 @@ body {
   color: aliceblue;
 }
 .navbar__top__item .nav__items__item__avatar {
-  align-items: start;
+  align-items: center;
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 
 .zlatmax__header {
