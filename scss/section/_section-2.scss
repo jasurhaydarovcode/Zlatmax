@@ -1,3 +1,39 @@
+.KnifeBg{
+    width: 100%;
+    height: max-content;
+    // background-image: url(../img/bg.jpg);
+    background: url("../img/bg.jpg") center/cover no-repeat;
+    .KnifeBg__TextL{
+        padding: 50px 0;
+        width: 800px;
+        padding-left: 5%;
+        .KnifeBg-TextL__h4{
+            color: #fff;
+            font-size: 27px;
+        }
+        .KnifeBg-TextL__h4-2{
+            color: #fff;
+            font-size: 20px;
+        }
+        .KnifeBg__TextL__p{
+            color: #fff;
+            font-size: 20px;
+        }
+        .KnifeBg-TextL__btn{
+            width: 228px;
+            height: 50px;
+            border: none;
+            color: #fff;
+            border-radius: 3px;
+            cursor: pointer;
+            background-color: #e8ab31df;
+            font-size: 20px;
+        }
+        .KnifeBg-TextL__btn:hover{
+            background-color: #e8ab31df;
+        }
+    }
+}
 .KnifeGrid{
     display: grid;
     grid-template-columns: auto auto auto;
