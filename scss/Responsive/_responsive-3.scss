@@ -1,0 +1,135 @@
+@media only screen and (max-width:1200px){
+    .title-cards__subtitle{
+        width: 210px !important;
+        font-size: 10px;
+        .img-knife{
+            width: 100% !important;
+            height: 150px !important;
+        }
+    }
+    .bi-star-fill{
+        font-size: 15px !important;
+    }
+    .second-cards-section-items__title{
+        width: 210px !important;
+    }
+    .title-cards__subtitle{
+        width: 210px !important;
+        font-size: 10px;
+        .img-knife{
+            width: 100% !important;
+            height: 150px !important;
+        }
+    }
+}
+@media only screen and (max-width:991px){
+    .cards-section-items__title-cards{
+        grid-template-columns: auto auto auto !important;
+        grid-template-rows: auto !important;
+    }
+    .second-cards-section-items__title-cards{
+        grid-template-columns: auto auto auto !important ;
+        grid-template-rows: auto !important;
+        height: 1050px !important;
+    }
+}
+@media only screen and (max-width:767px){
+    .cards-section-items__title-cards{
+        grid-template-columns: auto auto !important;
+        grid-template-rows: auto !important;
+    }
+    .second-cards-section-items__title-cards{
+        grid-template-columns: auto auto !important ;
+        grid-template-rows: auto !important;
+    }
+}
+@media only screen and (max-width:551px){
+    .cards-section-items__title-cards{
+        grid-template-columns: auto !important;
+        grid-template-rows: auto !important;
+        .title-cards__subtitle{
+            width: 350px !important;
+            font-size: 10px;
+            .img-knife{
+                width: 100% !important;
+                height: 150px !important;
+            }
+        }
+    }
+    .second-cards-section-items__title-cards{
+        grid-template-columns: auto !important ;
+        grid-template-rows: auto !important;
+        height: 1980px !important;
+        .second-cards-section-items__title{
+            width: 350px !important;
+        }
+        .title-cards__subtitle{
+            width: 350px !important;
+            font-size: 10px;
+            .img-knife{
+                width: 100% !important;
+                height: 150px !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width:551px){
+    .cards-section-items__title-cards{
+        grid-template-columns: auto !important;
+        grid-template-rows: auto !important;
+        .title-cards__subtitle{
+            width: 350px !important;
+            font-size: 10px;
+            .img-knife{
+                width: 100% !important;
+                height: 150px !important;
+            }
+        }
+    }
+    .second-cards-section-items__title-cards{
+        grid-template-columns: auto !important ;
+        grid-template-rows: auto !important;
+        height: 1980px !important;
+        .second-cards-section-items__title{
+            width: 350px !important;
+        }
+        .title-cards__subtitle{
+            width: 350px !important;
+            font-size: 10px;
+            .img-knife{
+                width: 100% !important;
+                height: 150px !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width:400px){
+    .cards-section-items__title-cards{
+        grid-template-columns: auto !important;
+        grid-template-rows: auto !important;
+        .title-cards__subtitle{
+            width: 300px !important;
+            font-size: 10px;
+            .img-knife{
+                width: 100% !important;
+                height: 150px !important;
+            }
+        }
+    }
+    .second-cards-section-items__title-cards{
+        grid-template-columns: auto !important ;
+        grid-template-rows: auto !important;
+        height: 1980px !important;
+        .second-cards-section-items__title{
+            width: 300px !important;
+        }
+        .title-cards__subtitle{
+            width: 300px !important;
+            font-size: 10px;
+            .img-knife{
+                width: 100% !important;
+                height: 150px !important;
+            }
+        }
+    }
+}

@@ -18,10 +18,12 @@
             .img-2{
                 width: 152.5px;
                 margin: 10px 13px 0 0;
+                height: 180px;
             }
             .img-3{
                 width: 152.5px;
                 margin: 10px 0 0 0;
+                height: 180px;
             }
         }
         .product__item-content{
@@ -117,5 +119,23 @@
                 }
             }
         }
+    }
+}
+.product-info{
+    width: 87%;
+    max-height: max-content;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+    margin: 100px;
+    .product-info__tabs{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 500px;
+        text-align: center;
+        .product-info__tabs-color{
+            color: rgb(151, 148, 148);
+        }
+    }
+    .product-info__paragraf {
+        margin: 20px;
     }
 }
