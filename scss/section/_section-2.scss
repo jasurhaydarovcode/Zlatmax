@@ -32,11 +32,20 @@
         .KnifeBg-TextL__btn:hover{
             background-color: #e8ab31df;
         }
-        .KnifeBg-TextL__Sell{
-            display: grid;
-            grid-template-columns: auto auto auto auto;
-        }
     }
+    
+    .KnifeBg-TextL__Sell{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-around;
+        // gap: 80px;
+        padding-top: 40px;
+        padding-bottom: 100px;
+        .KnifeBg-TextL-Sell__Card{
+            width: 265px;
+            height: 145px;  
+        }
+    }   
 }
 .KnifeGrid{
     display: grid;

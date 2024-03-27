@@ -100,9 +100,16 @@ body {
 .KnifeBg .KnifeBg__TextL .KnifeBg-TextL__btn:hover {
   background-color: rgba(232, 171, 49, 0.8745098039);
 }
-.KnifeBg .KnifeBg__TextL .KnifeBg-TextL__Sell {
+.KnifeBg .KnifeBg-TextL__Sell {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.KnifeBg .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card {
+  width: 265px;
+  height: 145px;
 }
 
 .KnifeGrid {
@@ -700,6 +707,36 @@ body {
 @media only screen and (max-width: 748px) {
   .KnifeGrid {
     grid-template-columns: auto;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .KnifeBg-TextL__Sell {
+    grid-template-columns: auto auto auto !important;
+  }
+  .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 1040px) {
+  .KnifeBg-TextL__Sell {
+    grid-template-columns: auto auto !important;
+  }
+  .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card {
+    margin-top: 50px;
+  }
+  .KnifeBg-TextL__Sell .Four-IMG {
+    margin-left: 16px;
+  }
+}
+@media only screen and (max-width: 699px) {
+  .KnifeBg-TextL__Sell {
+    grid-template-columns: auto !important;
+  }
+  .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card {
+    margin-top: 50px;
+  }
+  .KnifeBg-TextL__Sell .Four-IMG {
+    margin-left: 27px;
   }
 }
 @media only screen and (max-width: 1200px) {
