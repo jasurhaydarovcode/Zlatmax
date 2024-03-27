@@ -5,7 +5,7 @@
     background: url("../img/bg.jpg") center/cover no-repeat;
     .KnifeBg__TextL{
         padding: 50px 0;
-        width: 800px;
+        max-width: 800px;
         padding-left: 5%;
         .KnifeBg-TextL__h4{
             color: #fff;
@@ -15,7 +15,7 @@
             color: #fff;
             font-size: 20px;
         }
-        .KnifeBg__TextL__p{
+        .KnifeBg-TextL__p{
             color: #fff;
             font-size: 20px;
         }
