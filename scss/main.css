@@ -27,7 +27,7 @@ body {
 .navbar__top__item .navbar__items {
   width: -moz-max-content;
   width: max-content;
-  height: 70px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
