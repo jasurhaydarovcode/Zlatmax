@@ -1,3 +1,27 @@
+@media only screen and (max-width:1200px){
+    .title-cards__subtitle{
+        width: 210px !important;
+        font-size: 10px;
+        .img-knife{
+            width: 100% !important;
+            height: 150px !important;
+        }
+    }
+    .bi-star-fill{
+        font-size: 15px !important;
+    }
+    .second-cards-section-items__title{
+        width: 210px !important;
+    }
+    .title-cards__subtitle{
+        width: 210px !important;
+        font-size: 10px;
+        .img-knife{
+            width: 100% !important;
+            height: 150px !important;
+        }
+    }
+}
 @media only screen and (max-width:991px){
     .cards-section-items__title-cards{
         grid-template-columns: auto auto auto !important;

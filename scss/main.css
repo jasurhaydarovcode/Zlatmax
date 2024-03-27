@@ -310,11 +310,12 @@ body {
   height: max-content;
 }
 .cards-section .cards-section__items {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
   padding: 50px 0;
 }
 .cards-section .cards-section__items .cards-section-items__subtitle {
-  width: 90%;
+  width: 94%;
   margin: 0 auto;
   box-sizing: border-box;
   display: flex;
@@ -343,7 +344,7 @@ body {
   gap: 20px;
 }
 .cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle {
-  width: 290px;
+  width: 270px;
   height: -moz-max-content;
   height: max-content;
   padding: 20px;
@@ -399,11 +400,12 @@ body {
   background-size: cover;
 }
 .second-cards-section .second-cards-section__items {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
   padding: 50px 0;
 }
 .second-cards-section .second-cards-section__items .second-cards-section-items__title {
-  width: 300px;
+  width: 270px;
   height: 600px;
   color: #fff;
 }
@@ -436,7 +438,7 @@ body {
   gap: 20px;
 }
 .second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle {
-  width: 290px;
+  width: 270px;
   height: -moz-max-content;
   height: max-content;
   padding: 20px;
@@ -485,30 +487,6 @@ body {
   padding: 0 10px;
 }
 
-@media only screen and (max-width: 1200px) {
-  .title-cards__subtitle {
-    width: 230px !important;
-    font-size: 10px;
-  }
-  .title-cards__subtitle .img-knife {
-    width: 100% !important;
-    height: 150px !important;
-  }
-  .bi-star-fill {
-    font-size: 15px !important;
-  }
-  .second-cards-section-items__title {
-    width: 230px !important;
-  }
-  .title-cards__subtitle {
-    width: 230px !important;
-    font-size: 10px;
-  }
-  .title-cards__subtitle .img-knife {
-    width: 100% !important;
-    height: 150px !important;
-  }
-}
 .product {
   width: 100%;
   max-height: -moz-max-content;
@@ -604,6 +582,30 @@ body {
 @media only screen and (max-width: 748px) {
   .KnifeGrid {
     grid-template-columns: auto;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .title-cards__subtitle {
+    width: 210px !important;
+    font-size: 10px;
+  }
+  .title-cards__subtitle .img-knife {
+    width: 100% !important;
+    height: 150px !important;
+  }
+  .bi-star-fill {
+    font-size: 15px !important;
+  }
+  .second-cards-section-items__title {
+    width: 210px !important;
+  }
+  .title-cards__subtitle {
+    width: 210px !important;
+    font-size: 10px;
+  }
+  .title-cards__subtitle .img-knife {
+    width: 100% !important;
+    height: 150px !important;
   }
 }
 @media only screen and (max-width: 991px) {

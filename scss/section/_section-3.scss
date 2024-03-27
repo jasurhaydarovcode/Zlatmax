@@ -2,10 +2,11 @@
     width: 100%;
     height: max-content;
     .cards-section__items{
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
         padding: 50px 0;
         .cards-section-items__subtitle{
-            width: 90%;
+            width: 94%;
             margin: 0 auto;
             box-sizing: border-box;
             @include flex-between;
@@ -25,7 +26,7 @@
         margin: 0 auto;
         @include grid-four-col;
         .title-cards__subtitle{
-            width: 290px;
+            width: 270px;
             height: max-content;
             padding: 20px;
             box-sizing: border-box;
@@ -75,10 +76,11 @@
     background-image: url(../../../img/headir/pag-1Back.png);
     background-size: cover;
     .second-cards-section__items{
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
         padding: 50px 0;
         .second-cards-section-items__title{
-            width: 300px;
+            width: 270px;
             height: 600px;
             color: $f-white-clr;
             h2, p{
@@ -105,7 +107,7 @@
         margin: 0 auto;
         @include grid-four-col;
         .title-cards__subtitle{
-            width: 290px;
+            width: 270px;
             height: max-content;
             padding: 20px;
             box-sizing: border-box;
@@ -148,29 +150,5 @@
             }
         }
     }
-    }
-}
-@media only screen and (max-width:1200px){
-    .title-cards__subtitle{
-        width: 230px !important;
-        font-size: 10px;
-        .img-knife{
-            width: 100% !important;
-            height: 150px !important;
-        }
-    }
-    .bi-star-fill{
-        font-size: 15px !important;
-    }
-    .second-cards-section-items__title{
-        width: 230px !important;
-    }
-    .title-cards__subtitle{
-        width: 230px !important;
-        font-size: 10px;
-        .img-knife{
-            width: 100% !important;
-            height: 150px !important;
-        }
     }
 }
