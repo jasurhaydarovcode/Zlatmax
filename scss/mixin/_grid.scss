@@ -4,3 +4,7 @@
     justify-content: space-evenly;
     gap: 20px;
 }
+@mixin grid-two-col{
+    display: grid;
+    grid-template-columns: auto auto;
+}

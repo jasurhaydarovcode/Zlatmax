@@ -664,21 +664,23 @@ body {
   }
 }
 .product {
-  width: 86%;
-  height: -moz-max-content;
-  height: max-content;
-  padding: 0 100px 0 100px;
+  width: 100%;
+  max-height: -moz-max-content;
+  max-height: max-content;
 }
 .product .product-section {
   width: 500px;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   align-items: center;
+  text-align: center;
+  margin: 15px 0 15px 90px;
 }
 .product .product__item {
   display: grid;
   grid-template-columns: auto auto;
   gap: 50px;
+  justify-content: center;
 }
 .product .product__item .product__item-img {
   width: 650px;
@@ -696,18 +698,19 @@ body {
 }
 .product .product__item .product__item-content {
   width: 620px;
-  border: 1px solid red;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
 }
 .product .product__item .product__item-content .product__item-content__title {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 20px 30px 0;
 }
 .product .product__item .product__item-content .product__item-content__title .product__item-content__title__icons {
   padding-right: 150px;
 }
 .product .product__item .product__item-content .product__item-content__paragraf p {
-  margin: 0 0 0 20px;
+  margin: 0 0 30px 30px;
   color: rgb(28, 202, 28);
 }
 .product .product__item .product__item-content .product__item-content__grid {
@@ -715,14 +718,21 @@ body {
   grid-template-columns: auto auto;
 }
 .product .product__item .product__item-content .product__item-content__grid .product__item-content__grid-item {
-  margin-left: 20px;
+  margin: 10px 20px;
+}
+.product .product__item .product__item-content .product__item-content__grid .product__item-content__grid-item p {
+  margin: 10px;
 }
 .product .product__item .product__item-content .product__item-content__grid .product__item-content__grid-content {
-  margin-right: 150px;
   color: rgb(153, 151, 151);
+  margin: 10px 20px;
+}
+.product .product__item .product__item-content .product__item-content__grid .product__item-content__grid-content p {
+  margin: 10px;
 }
 .product .product__item .product__item-content .product__item-content__flex {
   display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 1142px) {
