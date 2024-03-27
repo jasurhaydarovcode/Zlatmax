@@ -261,17 +261,6 @@ body {
   width: 1em;
 }
 
-.product {
-  width: 86%;
-  height: -moz-max-content;
-  height: max-content;
-  padding: 0 100px 0 100px;
-}
-.product .product-section {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-}
-
 .KnifeNext {
   display: grid;
   grid-template-columns: auto auto;
@@ -308,6 +297,68 @@ body {
 }
 .KnifeThree .KnifeThree__Card:hover {
   transform: scale(1.02);
+}
+
+.product {
+  width: 86%;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 0 100px 0 100px;
+}
+.product .product-section {
+  width: 500px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+}
+.product .product__item {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+}
+.product .product__item .product__item-img {
+  width: 650px;
+}
+.product .product__item .product__item-img .img-1 {
+  width: 650px;
+}
+.product .product__item .product__item-img .img-2 {
+  width: 152.5px;
+  margin: 10px 13px 0 0;
+}
+.product .product__item .product__item-img .img-3 {
+  width: 152.5px;
+  margin: 10px 0 0 0;
+}
+.product .product__item .product__item-content {
+  width: 620px;
+  border: 1px solid red;
+}
+.product .product__item .product__item-content .product__item-content__title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.product .product__item .product__item-content .product__item-content__title .product__item-content__title__icons {
+  padding-right: 150px;
+}
+.product .product__item .product__item-content .product__item-content__paragraf p {
+  margin: 0 0 0 20px;
+  color: rgb(28, 202, 28);
+}
+.product .product__item .product__item-content .product__item-content__grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.product .product__item .product__item-content .product__item-content__grid .product__item-content__grid-item {
+  margin-left: 20px;
+}
+.product .product__item .product__item-content .product__item-content__grid .product__item-content__grid-content {
+  margin-right: 150px;
+  color: rgb(153, 151, 151);
+}
+.product .product__item .product__item-content .product__item-content__flex {
+  display: flex;
 }
 
 @media only screen and (max-width: 1142px) {
