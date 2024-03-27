@@ -5,43 +5,38 @@
         padding: 16px;
     }
 
+    .nav__items__item__link:hover{
+        color: rgb(255, 221, 1);
+    }
+
     .navbar__items{
-        font-family: robot;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 19.5px;
-        text-align: left;
-    
+        width: max-content;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         a{
             text-decoration: none;
             color: aliceblue;
         }
-        width: max-content;
-        height: 30px;
-        background-color: rgb(8, 0, 0);
-        display: flex;
-        gap: 30px;
+    }
+
+    .nav__items__item__avatar{
         align-items: start;
-        justify-content: space-between;
-    
-        .nav__items__item7{
-            display: flex;
-            justify-content: end !important;
-        }
+        display: flex;
+        justify-content: end;
     }
 }
 
-.zlatmax{
-    img{
-        padding: 16px;
+.zlatmax__header{
+    padding: 20px;
+    .zlatmax__header__img{
+        padding-right: 20px;
+        padding: 2px;
     }
+}
 
-    .location{
-    width: 341.79px;
-    height: 47px;
-    top: 92px;
-    left: 1134px;
-    gap: 0px;
-    opacity: 0px;
-    }
+.zlatmax__header__search{
+    width: 300px;
+    height: 40px;
 }
