@@ -2,17 +2,12 @@
     width: 100%;
     max-height: max-content;
     .product-section {
+        @include grid-five-col;
         width: 500px;
-        display: grid;
-        grid-template-columns: auto auto auto auto auto ;
-        align-items: center;
-        text-align: center;
         margin: 15px 0 15px 90px;
     }
     .product__item{
         @include grid-two-col;
-        gap: 50px;
-        justify-content: center;
         .product__item-img{
             width: 650px;
             .img-1{
@@ -68,7 +63,7 @@
                     }
                 }
                 .product__item-content__flex-second{
-                    margin: 50px 0 0 20px;
+                    margin: 43px 0 0 20px;
                     input{
                         margin: 12px 0;
                         width: 400px;
