@@ -7,8 +7,6 @@
 @mixin grid-two-col{
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: center;
-    gap: 50px;
 }
 @mixin grid-five-col{
     display: grid;

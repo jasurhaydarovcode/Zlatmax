@@ -711,8 +711,6 @@ body {
 .product .product__item .product__item-content .product__item-content__grid {
   display: grid;
   grid-template-columns: auto auto;
-  justify-content: center;
-  gap: 50px;
 }
 .product .product__item .product__item-content .product__item-content__grid .product__item-content__grid-item {
   margin: 10px 20px;
@@ -743,6 +741,48 @@ body {
   margin: 12px 0;
   width: 400px;
   height: 20px;
+}
+.product .product__item .product__item-content .product__item-content__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product .product__item .product__item-content .product__item-content__block h1 {
+  margin: 0 0 0 30px;
+}
+.product .product__item .product__item-content .product__item-content__block img {
+  padding-right: 220px;
+}
+.product .product__item .product__item-content .product__item-content__block p {
+  color: rgb(147, 146, 146);
+  margin: 0 25px;
+}
+.product .product__item .product__item-content .product__item-content__button {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0;
+}
+.product .product__item .product__item-content .product__item-content__button .product__item-content__button-first button {
+  background-color: black;
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+}
+.product .product__item .product__item-content .product__item-content__button .product__item-content__button-four button {
+  background-color: orange;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 40px;
+}
+.product .product__item .product__item-content .product__item-content__button .product__item-content__button-five button {
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 40px;
 }
 
 @media only screen and (max-width: 1142px) {
