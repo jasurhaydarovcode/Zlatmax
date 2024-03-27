@@ -61,7 +61,20 @@
             }
             .product__item-content__flex {
                 display: flex;
-                justify-content: center;
+                .product__item-content__flex-first {
+                    margin: 30px 0 0 30px;
+                    p{
+                        margin: 30px 0;
+                    }
+                }
+                .product__item-content__flex-second{
+                    margin: 50px 0 0 20px;
+                    input{
+                        margin: 12px 0;
+                        width: 400px;
+                        height: 20px;
+                    }
+                }
             }
         }
     }
