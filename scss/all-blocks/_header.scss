@@ -39,8 +39,7 @@
     }
     
     .KnifeBg-TextL__Sell{
-        display: grid;
-        grid-template-columns: auto auto auto auto;
+        @include grid-four-col;
         justify-content: space-around;
         // gap: 80px;
         padding-top: 40px;

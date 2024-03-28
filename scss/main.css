@@ -141,22 +141,7 @@ body {
   display: inline-block;
   width: 1em;
 }
-.KnifeGrid .KnifeGrid__Card:hover {
-  transform: scale(1.02);
-}
-.KnifeGrid .KnifeGrid__Card2:hover {
-  transform: scale(1.02);
-}
-.KnifeGrid .KnifeGrid__Card3:hover {
-  transform: scale(1.02);
-}
-.KnifeGrid .KnifeGrid__Card4:hover {
-  transform: scale(1.02);
-}
-.KnifeGrid .KnifeGrid__Card5:hover {
-  transform: scale(1.02);
-}
-.KnifeGrid .KnifeGrid__Card6:hover {
+.KnifeGrid .h-rotate:hover {
   transform: scale(1.02);
 }
 .KnifeGrid .KnifeGrid__Card2 {
@@ -381,8 +366,6 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-evenly;
-  gap: 20px;
 }
 .cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle {
   width: 270px;
@@ -475,8 +458,6 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-evenly;
-  gap: 20px;
 }
 .second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle {
   width: 270px;
@@ -718,8 +699,6 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-evenly;
-  gap: 20px;
 }
 .cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle {
   width: 270px;
@@ -812,8 +791,6 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-evenly;
-  gap: 20px;
 }
 .second-cards-section .second-cards-section-items__title-cards .title-cards__subtitle {
   width: 270px;

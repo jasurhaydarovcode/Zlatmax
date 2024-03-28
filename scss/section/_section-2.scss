@@ -1,6 +1,5 @@
 .KnifeGrid{
-    display: grid;
-    grid-template-columns: auto auto auto;
+    @include grid-three-col;
     justify-content: space-around;
     row-gap: 20px;
     .KnifeGrid__Card{
@@ -42,17 +41,7 @@
             }
         }
     }
-    .KnifeGrid__Card:hover{
-        transform: scale(1.02);
-    }.KnifeGrid__Card2:hover{
-        transform: scale(1.02);
-    }.KnifeGrid__Card3:hover{
-        transform: scale(1.02);
-    }.KnifeGrid__Card4:hover{
-        transform: scale(1.02);
-    }.KnifeGrid__Card5:hover{
-        transform: scale(1.02);
-    }.KnifeGrid__Card6:hover{
+    .h-rotate:hover{
         transform: scale(1.02);
     }
     .KnifeGrid__Card2{
