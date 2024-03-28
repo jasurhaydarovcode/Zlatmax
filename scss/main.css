@@ -74,8 +74,6 @@ body {
 .KnifeBg .KnifeBg-TextL__Sell {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-evenly;
-  gap: 20px;
   justify-content: space-around;
   padding-top: 40px;
   padding-bottom: 100px;
