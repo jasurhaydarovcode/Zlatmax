@@ -74,6 +74,8 @@ body {
 .KnifeBg .KnifeBg-TextL__Sell {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  gap: 20px;
   justify-content: space-around;
   padding-top: 40px;
   padding-bottom: 100px;
@@ -366,6 +368,8 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 .cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle {
   width: 270px;
@@ -458,6 +462,8 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 .second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle {
   width: 270px;
@@ -660,6 +666,8 @@ body {
 .product-info .product-info__tabs {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  gap: 20px;
   width: 500px;
   text-align: center;
   margin: 0;
@@ -711,6 +719,8 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 .cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle {
   width: 270px;
@@ -803,6 +813,8 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 .second-cards-section .second-cards-section-items__title-cards .title-cards__subtitle {
   width: 270px;

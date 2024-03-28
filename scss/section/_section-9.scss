@@ -142,8 +142,9 @@
         padding: 20px;  
     }
     .product-info__tabs{
-        display: grid;
-        grid-template-columns: auto auto auto auto;
+        // display: grid;
+        // grid-template-columns: auto auto auto auto;
+        @include  grid-four-col;
         width: 500px;
         text-align: center;
         margin: 0;
