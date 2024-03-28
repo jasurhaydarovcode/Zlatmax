@@ -564,7 +564,7 @@ body {
   margin: 10px;
 }
 .product .product__item .product__item-content .product__item-content__grid .product__item-content__grid-content {
-  color: rgb(153, 151, 151);
+  color: #ABABAB;
   margin: 10px 20px;
 }
 .product .product__item .product__item-content .product__item-content__grid .product__item-content__grid-content p {
@@ -599,7 +599,7 @@ body {
   padding-right: 220px;
 }
 .product .product__item .product__item-content .product__item-content__block p {
-  color: rgb(147, 146, 146);
+  color: #ABABAB;
   margin: 0 25px;
 }
 .product .product__item .product__item-content .product__item-content__button {
@@ -610,8 +610,8 @@ body {
   margin: 40px 0;
 }
 .product .product__item .product__item-content .product__item-content__button .product__item-content__button-first button {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
   width: 40px;
   height: 40px;
   font-size: 30px;
@@ -621,15 +621,15 @@ body {
   margin: 0;
 }
 .product .product__item .product__item-content .product__item-content__button .product__item-content__button-four button {
-  background-color: orange;
-  color: white;
+  background-color: #E8AA31;
+  color: #fff;
   border: none;
   width: 150px;
   height: 40px;
 }
 .product .product__item .product__item-content .product__item-content__button .product__item-content__button-five button {
-  background-color: black;
-  color: white;
+  background-color: #141414;
+  color: #fff;
   width: 150px;
   height: 40px;
 }
@@ -648,7 +648,7 @@ body {
   text-align: center;
 }
 .product-info .product-info__tabs .product-info__tabs-color {
-  color: rgb(151, 148, 148);
+  color: #ABABAB;
 }
 .product-info .product-info__paragraf {
   margin: 20px;
@@ -778,7 +778,7 @@ body {
 .second-cards-section .second-cards-section__items .second-cards-section-items__title .title-cards__title p {
   opacity: 100%;
 }
-.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards {
+.second-cards-section .second-cards-section-items__title-cards {
   width: 100%;
   height: 600px;
   margin: 0 auto;
@@ -787,42 +787,42 @@ body {
   justify-content: space-evenly;
   gap: 20px;
 }
-.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle {
+.second-cards-section .second-cards-section-items__title-cards .title-cards__subtitle {
   width: 270px;
   height: -moz-max-content;
   height: max-content;
   padding: 20px;
   box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-color: white;
+  background-color: #fff;
 }
-.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .img-knife {
+.second-cards-section .second-cards-section-items__title-cards .title-cards__subtitle .img-knife {
   width: 250px;
   height: 180px;
   -o-object-fit: contain;
      object-fit: contain;
 }
-.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle h3 {
+.second-cards-section .second-cards-section-items__title-cards .title-cards__subtitle h3 {
   font-size: 20px;
 }
-.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title {
+.second-cards-section .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title p {
+.second-cards-section .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title p {
   color: #ABABAB;
 }
-.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title i {
+.second-cards-section .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title i {
   font-size: 25px;
   color: #E8AA31;
 }
-.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title img {
+.second-cards-section .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title img {
   width: 23px;
   height: 23px;
   padding: 0 10px;
 }
-.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .second-cards-section-items__btn-card {
+.second-cards-section .second-cards-section-items__title-cards .title-cards__subtitle .second-cards-section-items__btn-card {
   width: 100%;
   height: 40px;
   background-color: #E8AA31;
@@ -833,7 +833,7 @@ body {
   color: #fff;
   font-weight: 600;
 }
-.second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .second-cards-section-items__btn-card p {
+.second-cards-section .second-cards-section-items__title-cards .title-cards__subtitle .second-cards-section-items__btn-card p {
   padding: 0 10px;
 }
 
