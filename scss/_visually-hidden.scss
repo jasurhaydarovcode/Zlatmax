@@ -4,3 +4,8 @@
 ::-webkit-scrollbar-thumb{
     background-color: grey;
 }
+
+*::selection{
+    background-color: grey;
+    color: #fff;
+}

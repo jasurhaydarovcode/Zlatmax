@@ -14,6 +14,16 @@ body {
   background-color: grey;
 }
 
+*::-moz-selection {
+  background-color: grey;
+  color: #fff;
+}
+
+*::selection {
+  background-color: grey;
+  color: #fff;
+}
+
 .container {
   width: 100%;
   height: -moz-max-content;
@@ -69,8 +79,23 @@ body {
   padding-bottom: 100px;
 }
 .KnifeBg .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card {
+  cursor: pointer;
   width: 265px;
   height: 145px;
+}
+.KnifeBg .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card img {
+  margin-left: 38%;
+}
+.KnifeBg .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card .KnifeBg-TextL-Sell-Card-P {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.KnifeBg .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card .KnifeBg-TextL-Sell-Card-P:hover {
+  color: red;
+}
+.KnifeBg .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card:hover {
+  transform: scale(1.08);
 }
 
 .KnifeGrid {
@@ -116,22 +141,7 @@ body {
   display: inline-block;
   width: 1em;
 }
-.KnifeGrid .KnifeGrid__Card:hover {
-  transform: scale(1.02);
-}
-.KnifeGrid .KnifeGrid__Card2:hover {
-  transform: scale(1.02);
-}
-.KnifeGrid .KnifeGrid__Card3:hover {
-  transform: scale(1.02);
-}
-.KnifeGrid .KnifeGrid__Card4:hover {
-  transform: scale(1.02);
-}
-.KnifeGrid .KnifeGrid__Card5:hover {
-  transform: scale(1.02);
-}
-.KnifeGrid .KnifeGrid__Card6:hover {
+.KnifeGrid .h-rotate:hover {
   transform: scale(1.02);
 }
 .KnifeGrid .KnifeGrid__Card2 {
@@ -356,8 +366,6 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-evenly;
-  gap: 20px;
 }
 .cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle {
   width: 270px;
@@ -450,8 +458,6 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-evenly;
-  gap: 20px;
 }
 .second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle {
   width: 270px;
@@ -705,8 +711,6 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-evenly;
-  gap: 20px;
 }
 .cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle {
   width: 270px;
@@ -799,8 +803,6 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-evenly;
-  gap: 20px;
 }
 .second-cards-section .second-cards-section-items__title-cards .title-cards__subtitle {
   width: 270px;
@@ -897,7 +899,7 @@ body {
     margin-top: 50px;
   }
   .KnifeBg-TextL__Sell .Four-IMG {
-    margin-left: 27px;
+    margin-left: -10px;
   }
 }
 @media only screen and (max-width: 1200px) {

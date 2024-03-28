@@ -1,58 +1,5 @@
-.KnifeBg{
-    width: 100%;
-    height: max-content;
-    // background-image: url(../img/bg.jpg);
-    background: url("../img/bg.jpg") center/cover no-repeat;
-    .KnifeBg__TextL{
-        padding: 50px 0;
-        max-width: 800px;
-        padding-left: 5%;
-        .KnifeBg-TextL__h4{
-            color: #fff;
-            font-size: 27px;
-        }
-        .KnifeBg-TextL__h4-2{
-            color: #fff;
-            font-size: 20px;
-        }
-        .KnifeBg-TextL__p{
-            color: #fff;
-            font-size: 20px;
-        }
-        .KnifeBg-TextL__btn{
-            -webkit-box-shadow: 0px 0px 51px 13px rgba(232, 170, 49, 0.2);
-            margin-top: 30px;
-            width: 228px;
-            height: 50px;
-            border: none;
-            color: #fff;
-            border-radius: 3px;
-            cursor: pointer;
-            transition: 0.3s;
-            background-color: #e8ab31df;
-            font-size: 20px;
-        }
-        .KnifeBg-TextL__btn:hover{
-            background-color: #e8ab31bf;
-        }
-    }
-    
-    .KnifeBg-TextL__Sell{
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        justify-content: space-around;
-        // gap: 80px;
-        padding-top: 40px;
-        padding-bottom: 100px;
-        .KnifeBg-TextL-Sell__Card{
-            width: 265px;
-            height: 145px;  
-        }
-    }   
-}
 .KnifeGrid{
-    display: grid;
-    grid-template-columns: auto auto auto;
+    @include grid-three-col;
     justify-content: space-around;
     row-gap: 20px;
     .KnifeGrid__Card{
@@ -94,17 +41,7 @@
             }
         }
     }
-    .KnifeGrid__Card:hover{
-        transform: scale(1.02);
-    }.KnifeGrid__Card2:hover{
-        transform: scale(1.02);
-    }.KnifeGrid__Card3:hover{
-        transform: scale(1.02);
-    }.KnifeGrid__Card4:hover{
-        transform: scale(1.02);
-    }.KnifeGrid__Card5:hover{
-        transform: scale(1.02);
-    }.KnifeGrid__Card6:hover{
+    .h-rotate:hover{
         transform: scale(1.02);
     }
     .KnifeGrid__Card2{
