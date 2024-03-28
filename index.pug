@@ -18,23 +18,39 @@ html(lang="en")
         link(rel="preconnect" href="https://fonts.googleapis.com")
         link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
         link(href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet")
-        
+            
     body 
         // * =============== Section-1 Nodir's ===============
-        //- section.navbar__top__item
-        //-         ul.navbar__items
-        //-             li.nav__items__item
-        //-                 a.nav__items__item__link(href='#') O нас
-        //-             li.nav__items__item
-        //-                 a.nav__items__item__link(href='#') Оплата и доставка
-        //-             li.nav__items__item
-        //-                 a.nav__items__item__link(href='#') Новости
-        //-             li.nav__items__item
-        //-                 a.nav__items__item__link(href='#') Контакты
-        //-             .nav__items__item7
-        //-                 img(src="../img/headir/avatar.png", alt="")
-        //-                 a.nav-link(href='#')  Личный кабинет
+        section.navbar__top__item
+                ul.navbar__items
+                    li.nav__items__item
+                        a.nav__items__item__link(href='#') O нас
+                    li.nav__items__item
+                        a.nav__items__item__link(href='#') Оплата и доставка
+                    li.nav__items__item
+                        a.nav__items__item__link(href='#') Новости
+                    li.nav__items__item
+                        a.nav__items__item__link(href='#') Контакты
+                    li.nav__items__item
+                        .nav__items__item__avatar
+                            img.avatar(src="../img/avatar.png", alt="")
+                            a.nav__items__item__link(href='#') Личный кабинет
         // * =============== Section-2 Jasur's ===============
+        .KnifeBg
+            div.KnifeBg__TextL
+                h4.KnifeBg-TextL__h4 Интернет магазин сертифицированных  
+                h4.KnifeBg-TextL__h4-2 златоустовских ножей
+                p.KnifeBg-TextL__p Добро пожаловать на официальный сайт «ЗЛАТМАКС»! В нашем магазине представлен наиболее широкий выбор Златоустовских ножей от Златоустовских Оружейных Фабрик и компаний, мы являемся официальными поставщиками.
+                button.KnifeBg-TextL__btn Подробнее
+            div.KnifeBg-TextL__Sell
+                div.KnifeBg-TextL-Sell__Card
+                    img(src="../img/headir/pack/1.png", alt="")
+                div.KnifeBg-TextL-Sell__Card
+                    img(src="../img/headir/pack/2.png", alt="")
+                div.KnifeBg-TextL-Sell__Card
+                    img(src="../img/headir/pack/3.png", alt="")
+                div.KnifeBg-TextL-Sell__Card.Four-IMG
+                    img(src="../img/headir/pack/4.png", alt="")
         .container
             div.KnifeGrid
                 div.KnifeGrid__Card
@@ -86,11 +102,9 @@ html(lang="en")
                             li Туристические
                             li Oхотничьи
         // * =============== Section-3 ===============
-        include pug/components/cards.pug
+        include pug/componentss/cards.pug
         // * =============== Section-4 ===============
-
         // * =============== Section-5 ===============
-
         // * =============== Section-6 ===============
 
         // * =============== Section-7 ===============
@@ -100,5 +114,3 @@ html(lang="en")
         // * =============== Section-9 ===============
 
         // * =============== Section-10 ==============
-
-        

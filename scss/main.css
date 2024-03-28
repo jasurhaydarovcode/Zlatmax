@@ -6,6 +6,14 @@ body {
   font-family: Montserrat, sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
+
 .container {
   width: 100%;
   height: -moz-max-content;
@@ -14,47 +22,52 @@ body {
   padding-bottom: 100px;
 }
 
-.navbar__top__item {
-  background-color: black;
+.KnifeBg {
   width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  background: url("../img/bg.jpg") center/cover no-repeat;
 }
-.navbar__top__item .nav__items__item__link {
-  padding: 16px;
+.KnifeBg .KnifeBg__TextL {
+  padding: 50px 0;
+  max-width: 800px;
+  padding-left: 5%;
 }
-.navbar__top__item .navbar__items {
-  font-family: robot;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19.5px;
-  text-align: left;
-  width: -moz-max-content;
-  width: max-content;
-  height: 30px;
-  background-color: rgb(8, 0, 0);
-  display: flex;
-  gap: 30px;
-  align-items: start;
-  justify-content: space-between;
+.KnifeBg .KnifeBg__TextL .KnifeBg-TextL__h4 {
+  color: #fff;
+  font-size: 27px;
 }
-.navbar__top__item .navbar__items a {
-  text-decoration: none;
-  color: aliceblue;
+.KnifeBg .KnifeBg__TextL .KnifeBg-TextL__h4-2 {
+  color: #fff;
+  font-size: 20px;
 }
-.navbar__top__item .navbar__items .nav__items__item7 {
-  display: flex;
-  justify-content: end !important;
+.KnifeBg .KnifeBg__TextL .KnifeBg-TextL__p {
+  color: #fff;
+  font-size: 20px;
 }
-
-.zlatmax img {
-  padding: 16px;
+.KnifeBg .KnifeBg__TextL .KnifeBg-TextL__btn {
+  width: 228px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: rgba(232, 171, 49, 0.8745098039);
+  font-size: 20px;
 }
-.zlatmax .location {
-  width: 341.79px;
-  height: 47px;
-  top: 92px;
-  left: 1134px;
-  gap: 0px;
-  opacity: 0px;
+.KnifeBg .KnifeBg__TextL .KnifeBg-TextL__btn:hover {
+  background-color: rgba(232, 171, 49, 0.7490196078);
+}
+.KnifeBg .KnifeBg-TextL__Sell {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.KnifeBg .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card {
+  width: 265px;
+  height: 145px;
 }
 
 .KnifeGrid {
@@ -825,9 +838,47 @@ body {
     grid-template-columns: auto auto;
   }
 }
+@media only screen and (max-width: 888px) {
+  .KnifeBg-TextL__p {
+    font-size: 10px;
+  }
+  .KnifeBg-TextL__btn {
+    padding-left: 20px;
+  }
+}
 @media only screen and (max-width: 748px) {
   .KnifeGrid {
     grid-template-columns: auto;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .KnifeBg-TextL__Sell {
+    grid-template-columns: auto auto auto !important;
+  }
+  .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 1040px) {
+  .KnifeBg-TextL__Sell {
+    grid-template-columns: auto auto !important;
+  }
+  .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card {
+    margin-top: 50px;
+  }
+  .KnifeBg-TextL__Sell .Four-IMG {
+    margin-left: 16px;
+  }
+}
+@media only screen and (max-width: 699px) {
+  .KnifeBg-TextL__Sell {
+    grid-template-columns: auto !important;
+  }
+  .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card {
+    margin-top: 50px;
+  }
+  .KnifeBg-TextL__Sell .Four-IMG {
+    margin-left: 27px;
   }
 }
 @media only screen and (max-width: 1200px) {

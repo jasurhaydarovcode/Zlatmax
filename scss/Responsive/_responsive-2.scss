@@ -3,8 +3,46 @@
         grid-template-columns: auto auto; 
     }
 }
+@media only screen and (max-width: 888px){
+    .KnifeBg-TextL__p{
+        font-size: 10px;
+    }
+    .KnifeBg-TextL__btn{
+        padding-left: 20px;
+    }
+}
 @media only screen and (max-width: 748px){
     .KnifeGrid{
         grid-template-columns: auto; 
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .KnifeBg-TextL__Sell{
+        grid-template-columns: auto auto auto !important;
+        .KnifeBg-TextL-Sell__Card{
+            margin-top: 50px;
+        }
+    }
+}
+@media only screen and (max-width: 1040px) {
+    .KnifeBg-TextL__Sell{
+        grid-template-columns: auto auto !important;
+        .KnifeBg-TextL-Sell__Card{
+            margin-top: 50px;
+        }
+        .Four-IMG{
+            margin-left: 16px;
+        }
+    }
+}
+@media only screen and (max-width: 699px) {
+    .KnifeBg-TextL__Sell{
+        grid-template-columns: auto !important;
+        .KnifeBg-TextL-Sell__Card{
+            margin-top: 50px;
+        }
+        .Four-IMG{
+            margin-left: 27px;
+        }
     }
 }
