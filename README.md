@@ -21,15 +21,15 @@
 # The team of developers
 
 | Devs Name | Work | Section № |
-|:-|:-|:-|
+|:-:|:-:|:-:|
 | Nodir | Navbar | 1
 | Jasur | Header | 2
 | Jasmina | Cards | 3
 | Asliddin | | 4
 | Asilbek Shax | | 5
 | Samira | | 6
-| | | 7
-| | | 8
+| Mirhamid | | 7
+| Nodir | | 8
 | Asilbek | | 9
 | Hasan | Footer | 10
 
