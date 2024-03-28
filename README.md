@@ -25,9 +25,9 @@
 | Nodir | Navbar | 1
 | Jasur | Header | 2
 | Jasmina | Cards | 3
-| | | 4
-| | | 5
-| | | 6
+| Asliddin | | 4
+| Asilbek Shax | | 5
+| Samira | | 6
 | | | 7
 | | | 8
 | Asilbek | | 9
