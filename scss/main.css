@@ -642,7 +642,7 @@ body {
   height: 50vh;
   justify-content: center;
   display: flex;
-  align-items: center;
+  align-items: end;
 }
 .product-info .product-info-first {
   width: 1280px;
@@ -1037,8 +1037,7 @@ body {
 }
 @media only screen and (max-width: 1400px) {
   .product-section {
-    width: 545px !important;
-    justify-content: end !important;
+    padding: 0 0 0 100px;
   }
   .product__item .product__item-img {
     width: 500px !important;
@@ -1099,5 +1098,8 @@ body {
   }
   .product__item .product__item-content .product__item-content__button .product__item-content__button-five button {
     width: 130px !important;
+  }
+  .product-info-first {
+    width: 1010px !important;
   }
 }/*# sourceMappingURL=main.css.map */
