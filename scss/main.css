@@ -666,8 +666,6 @@ body {
 .product-info .product-info__tabs {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-evenly;
-  gap: 20px;
   width: 500px;
   text-align: center;
   margin: 0;
