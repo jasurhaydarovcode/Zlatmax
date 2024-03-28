@@ -3,8 +3,9 @@
     max-height: max-content;
     .product-section {
         @include grid-five-col;
-        width: 500px;
-        margin: 15px 0 15px 90px;
+        width: 600px;
+        justify-content: center;
+        gap: 20px;
     }
     .product__item{
         @include grid-two-col;
@@ -137,5 +138,160 @@
     }
     .product-info__paragraf {
         margin: 20px;
+    }
+}
+
+.cards-section{
+    width: 100%;
+    height: max-content;
+    .cards-section__items{
+        width: 95%;
+        margin: 0 auto;
+        padding: 50px 0;
+        .cards-section-items__subtitle{
+            width: 94%;
+            margin: 0 auto;
+            box-sizing: border-box;
+            @include flex-between;
+        }
+        .cards-section-items__title{
+            @include flex-center;
+            p{
+                letter-spacing: 1px;
+            }
+            i{
+                color: $yellow-clr-t;
+            }
+        }
+    .cards-section-items__title-cards{
+        width: 100%;
+        height: max-content;
+        margin: 0 auto;
+        @include grid-four-col;
+        .title-cards__subtitle{
+            width: 270px;
+            height: max-content;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            .img-knife{
+                width: 250px;
+                height: 180px;
+                object-fit: contain;
+            }
+            h3{
+                font-size: 20px
+            }
+            .title-cards__title{
+                @include flex-between;
+                p{
+                    color: $grey-Grey-clr;
+                }
+                i{
+                    font-size: 25px;
+                    color: $yellow-clr-t;
+                }
+                img{
+                    width: 23px;
+                    height: 23px;
+                    padding:0 10px;
+                }
+            }
+            .cards-section-items__btn-card{
+                width: 100%;
+                height: 40px;
+                background-color: $yellow-clr-t;
+                @include flex-center;
+                border-radius: 3px;
+                color: $f-white-clr;
+                font-weight: 600;
+                p{
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+    }
+}
+.second-cards-section{
+    width: 100%;
+    height: max-content;
+    background-image: url(../../../img/headir/pag-1Back.png);
+    background-size: cover;
+    .second-cards-section__items{
+        width: 95%;
+        margin: 0 auto;
+        padding: 50px 0;
+        .second-cards-section-items__title{
+            width: 270px;
+            height: 600px;
+            color: $f-white-clr;
+            h2, p{
+                font-size: 18px;
+                line-height: 1.5;
+                letter-spacing: 1px;
+                opacity: 70%;
+            }
+            h2{
+                opacity: 100%;
+                font-size: 30px;
+            }
+            .title-cards__title{
+                @include flex-start;
+                color: $yellow-clr-t;
+                p{
+                    opacity: 100%;
+                }
+            }
+        }
+    .second-cards-section-items__title-cards{
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+        @include grid-four-col;
+        .title-cards__subtitle{
+            width: 270px;
+            height: max-content;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            background-color: white;
+            .img-knife{
+                width: 250px;
+                height: 180px;
+                object-fit: contain;
+            }
+            h3{
+                font-size: 20px
+            }
+            .title-cards__title{
+                @include flex-between;
+                p{
+                    color: $grey-Grey-clr;
+                }
+                i{
+                    font-size: 25px;
+                    color: $yellow-clr-t;
+                }
+                img{
+                    width: 23px;
+                    height: 23px;
+                    padding:0 10px;
+                }
+            }
+            .second-cards-section-items__btn-card{
+                width: 100%;
+                height: 40px;
+                background-color: $yellow-clr-t;
+                @include flex-center;
+                border-radius: 3px;
+                color: $f-white-clr;
+                font-weight: 600;
+                p{
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
     }
 }

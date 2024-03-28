@@ -1,0 +1,19 @@
+@media only screen and (max-width:1400px){
+    .product__item{
+        .product__item-img{
+            width: 500px !important;
+            max-height: max-content;
+            .img-1{
+                width: 500px !important;
+            }
+            .img-2{
+                width: 115px !important;
+                height: 150px !important;
+            }
+            .img-3{
+                width: 115px !important;
+                height: 150px !important;
+            }
+        }
+    }
+}
