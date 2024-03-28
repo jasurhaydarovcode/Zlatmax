@@ -30,7 +30,7 @@
 | | | 6
 | | | 7
 | | | 8
-| | | 9
+| Asilbek | | 9
 | Hasan | Footer | 10
 
 <img src="./Watch/Watch.png">
