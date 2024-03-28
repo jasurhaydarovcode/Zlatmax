@@ -3,9 +3,10 @@
     max-height: max-content;
     .product-section {
         @include grid-five-col;
-        width: 600px;
-        justify-content: center;
+        // width: 100%;
+        justify-content: start;
         gap: 20px;
+        padding: 0 0 0 140px;
     }
     .product__item{
         @include grid-two-col;
@@ -129,21 +130,34 @@
     }
 }
 .product-info{
-    width: 87%;
-    max-height: max-content;
-    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
-    margin: 100px;
+    width: 100%;
+    height:50vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    .product-info-first{
+        width: 1280px;
+        height: max-content;
+        box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+        padding: 20px;  
+    }
     .product-info__tabs{
         display: grid;
         grid-template-columns: auto auto auto auto;
         width: 500px;
         text-align: center;
+        margin: 0;
+        hr{
+            background-color: $yellow-clr-t ;
+            height: 1.5px;
+        }
         .product-info__tabs-color{
             color: $grey-Grey-clr;
         }
     }
-    .product-info__paragraf {
-        margin: 20px;
+    hr{
+        margin: 0;
+
     }
 }
 
