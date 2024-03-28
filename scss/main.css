@@ -69,8 +69,23 @@ body {
   padding-bottom: 100px;
 }
 .KnifeBg .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card {
+  cursor: pointer;
   width: 265px;
   height: 145px;
+}
+.KnifeBg .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card img {
+  margin-left: 38%;
+}
+.KnifeBg .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card .KnifeBg-TextL-Sell-Card-P {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.KnifeBg .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card .KnifeBg-TextL-Sell-Card-P:hover {
+  color: red;
+}
+.KnifeBg .KnifeBg-TextL__Sell .KnifeBg-TextL-Sell__Card:hover {
+  transform: scale(1.08);
 }
 
 .KnifeGrid {
@@ -885,7 +900,7 @@ body {
     margin-top: 50px;
   }
   .KnifeBg-TextL__Sell .Four-IMG {
-    margin-left: 27px;
+    margin-left: -10px;
   }
 }
 @media only screen and (max-width: 1200px) {
