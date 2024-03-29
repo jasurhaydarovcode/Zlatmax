@@ -1,0 +1,191 @@
+.section-fifty {
+    h1 {
+        font-family: Montserrat, sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 46px;
+        letter-spacing: 0.05em;
+    }
+}
+
+.fifty-gridd {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    gap: 40px;
+
+    .fifty-div {
+        width: 338px;
+        background-color: white !important;
+        height: 350px;
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+
+        img {
+            width: 339px;
+            height: auto;
+        }
+
+        .fifty-div-info {
+            font-family: Montserrat, sans-serif;
+            margin-left: 20px;
+            display: grid;
+            height: 135px;
+            align-items: end;
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                color: rgba(171, 171, 171, 1);
+            }
+        }
+    }
+}
+
+.fifty-torch-grid {
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 10px;
+    grid-template-columns: auto auto;
+
+    .fifty-torch-first {
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+        background-color: white !important;
+        display: flex;
+        font-family: Montserrat, sans-serif;
+        justify-content: space-between;
+        width: 670px;
+        padding-left: 23px;
+        height: 293px;
+
+        div:nth-child(1) {
+            height: max-content;
+            padding-bottom: 25px;
+        }
+
+        div:nth-child(2) {
+            width: 70px;
+            height: 2.5px;
+            margin-left: 5px;
+            margin-top: -5px;
+            background-color: #E8AA31;
+        }
+
+        p {
+            margin-top: 40px;
+            line-height: 1.4;
+            word-spacing: 2px;
+        }
+
+        button {
+            background-color: #E8AA31;
+            color: white;
+            box-shadow: 0px 2px 10px 0px #E8AA31;
+            padding: 10px 105px;
+            border: none;
+            margin-top: 58px;
+        }
+    }
+
+    .fifty-torch-second {
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+        display: flex;
+        font-family: Montserrat, sans-serif;
+        justify-content: space-between;
+        background-color: white !important;
+        width: 670px;
+        padding-left: 23px;
+        height: 293px;
+
+        div:nth-child(1) {
+            height: max-content;
+            padding-bottom: 25px;
+        }
+
+        div:nth-child(2) {
+            width: 70px;
+            height: 2.5px;
+            margin-left: 5px;
+            margin-top: -5px;
+            background-color: #E8AA31;
+        }
+
+        p {
+            margin-top: 50px;
+        }
+
+        button {
+            background-color: #E8AA31;
+            color: white;
+            box-shadow: 0px 2px 10px 0px #E8AA31;
+            padding: 10px 105px;
+            border: none;
+            margin-top: 58px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .fifty-gridd {
+        grid-template-columns: auto auto;
+
+        .fifty-div {
+            width: max-content;
+            height: max-content;
+            img{
+                width: 230px;
+            }
+            h2{
+                font-size: 15px !important;
+
+            }
+        }
+    }
+    .fifty-torch-grid {
+        grid-template-columns: auto;
+        .fifty-torch-first, .fifty-torch-second {
+            width: max-content;
+            img{
+                width: 300px;
+            }
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 528px) {
+    .fifty-torch-first, .fifty-torch-second {
+        button{
+            width: 200px;
+        }
+        h2{
+            font-size: 17px !important;
+        }
+    }
+}
+@media only screen and (max-width: 404px) {
+    .fifty-gridd {
+        grid-template-columns: auto;
+        justify-content: right !important;
+    }
+    .fifty-torch-first, .fifty-torch-second {
+        height: 240px !important;
+        img{
+            width: 200px !important;
+            margin-top: 20px;
+            height: 200px;
+        }
+        h2{
+            font-size: 13px;
+        }
+        p{
+            font-size: 13px;
+            margin: 0;
+        }
+    }
+}
