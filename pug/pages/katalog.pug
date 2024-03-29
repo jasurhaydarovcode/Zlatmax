@@ -1,0 +1,363 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Ножи Златоуст – Купить качественные Златоустовские ...
+
+        // * =============== STYLE ===============
+        link(rel="stylesheet", href="../../../scss/main.css")
+
+        // * =============== favicon ===============
+        link(rel="icon", href="https://www.zlatmax.ru/favicon.svg")
+
+        // * =============== Bootstrap ===============
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css")
+
+        // * =============== Montserrat FONT ===============
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet")
+    body 
+        section.katalog-section
+            div.katalog-section__items
+                div.katalog-section-items__subtitle
+                    h1 Разделочные ножи
+                    div.subtitle__navigation-item
+                        ul.navigation-item__lists
+                            li Главная 
+                                i.bi.bi-chevron-right
+                            li Разделочные ножи
+                        select.navigation-item__select
+                            option По популярности
+                            option По популярности
+                            option По популярности
+                            option По популярности
+                            option По популярности
+                div.katalog-section-items__main-title
+                    div.katalog-section-items__main-menu
+                        div.main-menu__btn-div
+                            h3 Фильтр товаров
+                        div
+                            div.btn-div__box(onclick="hide('list')")
+                                h3 Цена
+                                i.bi.bi-chevron-up
+                            div#list
+                                div.btn-div__item
+                                    div
+                                        p 2000 руб.
+                                    div
+                                        p 5000 руб.
+                                div.btn-div__range-input-item
+                                    input(type="range")
+                                    small 5000 руб.
+                        div
+                            div.main-menu__btn-div(onclick="hide2('list2')")
+                                h3 Производство
+                                i.bi.bi-chevron-up
+                            div#list2.main-menu__nav-item
+                                form(action='#')
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')  АиР
+                                    span (250)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  Булат Сергея Баранова
+                                    span (25)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  Булат Умерова
+                                    span (265)
+                                    br
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')  ЗЗОСС
+                                    span (18)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  ЗИК
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  ЗЛАТКО
+                                    span (170)
+                                    br
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')  ЗлатПрофит
+                                    span (170)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  ЗОК
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  НБК
+                                    span (170)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  НИКОН
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  Оружейник
+                                    span (170)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  РОСоружие
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  СТИЛЬ-М
+                                    span (170)
+                                    br
+                        div
+                            div.main-menu__btn-div(onclick="hide3('list3')")
+                                h3 Сталь
+                                i.bi.bi-chevron-up
+                            div#list3.main-menu__nav-item
+                                form(action='#')
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')  100Х13М
+                                    span (250)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  110Х18М-ШД
+                                    span (25)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  40Х10С2М (ЭИ-107)
+                                    span (265)
+                                    br
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')  50Х14МФ
+                                    span (18)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  95Х18
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  AUS-8
+                                    span (170)
+                                    br
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')  ELMAX
+                                    span (170)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  RWL-34
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  Дамаск
+                                    span (170)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  К340
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  Литой булат
+                                    span (170)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  Литой булат
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  М390
+                                    span (170)
+                                    br
+                        div
+                            div.main-menu__btn-div(onclick="hide4('list4')")
+                                h3 Рукоять
+                                i.bi.bi-chevron-up
+                            div#list4.main-menu__nav-item
+                                form(action='#')
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')  Mercorne
+                                    span (250)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  Березовый кап
+                                    span (25)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  Бубинго
+                                    span (265)
+                                    br
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')  Граб
+                                    span (18)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  Дуб
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  Кап
+                                    span (170)
+                                    br
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')  Комбинированная
+                                    span (170)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  Каштан
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  Квартопрен
+                                    span (170)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  Кожа-Металл
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  Комбинированная
+                                    span (170)
+                                    br
+                        div
+                            div.main-menu__btn-div(onclick="hide5('list5')")
+                                h3 Гарда и тыльник
+                                i.bi.bi-chevron-up
+                            div#list5.main-menu__nav-item
+                                form(action='#')
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')  Алюминий
+                                    span (250)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  Латунь
+                                    span (25)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  Литой Барс
+                                    span (265)
+                                    br
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')  Литой Барс
+                                    span (18)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  Литой Пума
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  Литой Пума
+                                    span (170)
+                                    br
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')  Литье
+                                    span (170)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  Металлический
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  Нержавеющая сталь
+                                    span (170)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  Текстолит
+                                    span (170)
+                                    br
+                                    input#vehicle3(type='checkbox', name='vehicle3', value='Boat')
+                                    label(for='vehicle3')  Комбинированная
+                                    span (170)
+                                    br
+                        div
+                            div.main-menu__btn-div(onclick="hide6('list6')")
+                                h3 Золочение
+                                i.bi.bi-chevron-up
+                            div#list6.main-menu__nav-item
+                                form(action='#')
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')  Золочение клинка
+                                    span (250)
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')  Золочение рисунка на клинке
+                                    span (25)
+                                    br
+                        div
+                            div.main-menu__btn-div(onclick="hide7('list7')")
+                                h3 Общая длина, мм
+                                i.bi.bi-chevron-up
+                            div#list7
+                                div.btn-div__items
+                                    div 
+                                        p 100
+                                    div 
+                                        p 90
+                                div.btn-div__range-input-item   
+                                    input(type="range")
+                        div
+                            div.main-menu__btn-div(onclick="hide8('list8')")
+                                h3 Длина клинка, мм
+                                i.bi.bi-chevron-up
+                            div#list8
+                                div.btn-div__items
+                                    div 
+                                        p 100
+                                    div 
+                                        p 90
+                                div.btn-div__range-input-item
+                                    input(type="range")
+                        div
+                            div.main-menu__btn-div(onclick="hide9('list9')")
+                                h3 Ширина клинка, мм
+                                i.bi.bi-chevron-up
+                            div#list9
+                                div.btn-div__items
+                                    div 
+                                        p 100
+                                    div 
+                                        p 90
+                                div.btn-div__range-input-item
+                                    input(type="range")
+                        div
+                            div.main-menu__btn-div(onclick="hide10('list10')")
+                                h3 Рейтинг
+                                i.bi.bi-chevron-up
+                            div#list10.main-menu__nav-items
+                                form(action='#')
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')
+                                    i.bi.bi-star-fill
+                                    i.bi.bi-star-fill
+                                    i.bi.bi-star-fill
+                                    i.bi.bi-star-fill
+                                    i.bi.bi-star-fill
+                                    span 5/5
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')
+                                    i.bi.bi-star-fill
+                                    i.bi.bi-star-fill
+                                    i.bi.bi-star-fill
+                                    i.bi.bi-star-fill
+                                    span 4/5
+                                    br
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')
+                                    i.bi.bi-star-fill
+                                    i.bi.bi-star-fill
+                                    i.bi.bi-star-fill
+                                    span 3/5
+                                    br
+                                    input#vehicle2(type='checkbox', name='vehicle2', value='Car')
+                                    label(for='vehicle2')
+                                    i.bi.bi-star-fill
+                                    i.bi.bi-star-fill
+                                    span 2/5
+                                    br
+                                    input#vehicle1(type='checkbox', name='vehicle1', value='Bike')
+                                    label(for='vehicle1')
+                                    i.bi.bi-star-fill
+                                    span 1/5
+                                    br
+                    div.katalog-section-items__main-text
+                        include ../componentss/katalog-card.pug
+        script(src="../../../js/main.js") 

@@ -1,0 +1,203 @@
+.katalog-section{
+    width: 100%;
+    height: max-content;
+    .katalog-section__items{
+        width: 90%;
+        margin: 0 auto;
+        .katalog-section-items__subtitle{
+            width: 100%;
+            .subtitle__navigation-item{
+                @include flex-between;
+                .navigation-item__lists{
+                    @include flex-start;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    li:first-child{
+                        color: $grey-Grey-clr;
+                    }
+                    li:last-child{
+                        color: $yellow-clr-t
+                    }
+                }
+                .navigation-item__select{
+                    width: 280px;
+                    padding: 5px 20px;
+                }
+            }
+        }
+        .katalog-section-items__main-title{
+            width: 100%;
+            height: max-content;
+            margin: 20px auto;
+            @include flex-between-gap;
+            .katalog-section-items__main-menu{
+                width: 280px;
+                display: block;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                .btn-div__box, .main-menu__btn-div{
+                    width:280px;
+                    padding:1px 20px;
+                    box-sizing: border-box;
+                    font-size: 15px;
+                    @include flex-between-center;
+                    i{
+                        color: $yellow-clr-t;
+                    }
+                }
+                .main-menu__btn-div{
+                    background-color: $rubl-sena-black-t;
+                    color: $f-white-clr;
+                }
+                #list,#list1,#list2,#list3,#list4,#list5,#list6,#list7,#list8,#list9,#list10{
+                    display: none;
+                }
+                .btn-div__item{
+                    @include flex-center;
+                    div{
+                        border: 1px solid;
+                        padding: 0 28px;
+                        font-size: 13px;
+                    }
+                }
+                .btn-div__range-input-item{
+                    padding: 0 20px;
+                    input{
+                        margin: 10px 0 ;
+                        width: 100%;
+                    }
+                    small{
+                        font-size: 12px;
+                        padding: 0 0 0 100px;
+                    }
+                }
+                .main-menu__nav-item{
+                    padding: 0 0 0 20px;
+                    margin: 10px;
+                    font-size: 12px;
+                    input{
+                        margin: 5px 0 0 0;
+                    }
+                    span{
+                        color: $yellow-clr-t;
+                        margin: 0 0 0 10px;
+                    }
+                }
+                .btn-div__items{
+                    @include flex-center;
+                    div{
+                        margin: 20px 0 0 0;
+                        border: 1px solid;
+                        padding: 0 50px;
+                        font-size: 13px;
+                    }
+                }
+                form{
+                    font-size: 13px;
+                    input{
+                        margin: 5px 0 0 0;
+                    }
+                    .bi-star-fill{
+                        color: $yellow-clr-t;
+                        margin: 0 3px;
+                    }
+                    span{
+                        margin: 0 0 0 10px;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .katalog-section-items__main-text{
+                width: 100%;
+                height: max-content;
+                .katalog-cards-section{
+                    width: 100%;
+                    height: max-content;
+                    .katalog-cards-section-items__title{
+                        width: 100%;
+                        height: max-content;
+                        @include grid-three-col;
+                        .katalog-cards-title__subtitle{
+                            position: relative;
+                            width: 280px;
+                            padding: 20px;
+                            box-sizing: border-box;
+                            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                            margin: 0 0 20px 0;
+                            img{
+                                width: 100%;
+                                height:180px;
+                                object-fit: cover;
+                            }
+                            h3{
+                                margin: 0;
+                                font-size: 16px;
+                            }
+                            .katalog-cards-subtitle__title{
+                                @include flex-between-center;
+                                font-size: 12px;
+                                p{
+                                    color: $grey-Grey-clr;
+                                    margin: 5px 0;
+                                }
+                                i{
+                                    margin: 0 5px;
+                                    color: $yellow-clr-t;
+                                }
+                                .img-group{
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                .bi-heart{
+                                    font-size: 22px;
+                                }
+                            }
+                            .small-btn{
+                                position: absolute;
+                                top: 10px;
+                                left: 0;
+                                background-color: $yellow-clr-t;
+                                p{
+                                    margin: 0;
+                                    padding: 5px 15px;
+                                    color: $f-white-clr;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+                .katalog-items-section{
+                    width: 100%;
+                    height: max-content;
+                    margin: 0 0 50px 0;
+                    @include flex-between-center;
+                    button{
+                            width: 220px;
+                            padding: 10px;
+                            background-color: $f-white-clr;
+                            color: $yellow-clr-t;
+                            border: 1px solid $yellow-clr-t;
+                            font-weight: 600;
+                            letter-spacing: 1px;
+                    }
+                    .katalog-items-section__title{
+                        width: 200px;
+                        @include flex-between-center;
+                        .bi-chevron-left{
+                            color: $grey-Grey-clr;
+                        }
+                        h4:nth-child(2){
+                            padding: 5px 12px;
+                            border-radius: 50%;
+                            background-color: $yellow-clr-t;
+                        }
+                        .bi-chevron-right{
+                            color: $yellow-clr-t;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

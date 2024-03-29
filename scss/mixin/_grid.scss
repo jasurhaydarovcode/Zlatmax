@@ -14,3 +14,9 @@
     align-items: center;
     text-align: center;
 }
+@mixin grid-three-col{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: space-between;
+    gap: 20px;
+}

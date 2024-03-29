@@ -3,7 +3,12 @@
     justify-content: center;
     align-items: center;
 }
-@mixin flex-between {
+@mixin flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+@mixin flex-between-center{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,4 +17,9 @@
     display: flex;
     justify-content: start;
     align-items: center;
+}
+@mixin flex-between-gap{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }

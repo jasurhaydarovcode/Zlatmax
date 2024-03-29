@@ -320,7 +320,7 @@ body {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 .cards-section .cards-section__items .cards-section-items__title {
   display: flex;
@@ -363,7 +363,7 @@ body {
 .cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle .title-cards__title {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 .cards-section .cards-section__items .cards-section-items__title-cards .title-cards__subtitle .title-cards__title p {
   color: #ABABAB;
@@ -458,7 +458,7 @@ body {
 .second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 .second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .title-cards__title p {
   color: #ABABAB;
@@ -485,6 +485,238 @@ body {
 }
 .second-cards-section .second-cards-section__items .second-cards-section-items__title-cards .title-cards__subtitle .second-cards-section-items__btn-card p {
   padding: 0 10px;
+}
+
+.katalog-section {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+}
+.katalog-section .katalog-section__items {
+  width: 90%;
+  margin: 0 auto;
+}
+.katalog-section .katalog-section__items .katalog-section-items__subtitle {
+  width: 100%;
+}
+.katalog-section .katalog-section__items .katalog-section-items__subtitle .subtitle__navigation-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.katalog-section .katalog-section__items .katalog-section-items__subtitle .subtitle__navigation-item .navigation-item__lists {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.katalog-section .katalog-section__items .katalog-section-items__subtitle .subtitle__navigation-item .navigation-item__lists li:first-child {
+  color: #ABABAB;
+}
+.katalog-section .katalog-section__items .katalog-section-items__subtitle .subtitle__navigation-item .navigation-item__lists li:last-child {
+  color: #E8AA31;
+}
+.katalog-section .katalog-section__items .katalog-section-items__subtitle .subtitle__navigation-item .navigation-item__select {
+  width: 280px;
+  padding: 5px 20px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu {
+  width: 280px;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .btn-div__box, .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .main-menu__btn-div {
+  width: 280px;
+  padding: 1px 20px;
+  box-sizing: border-box;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .btn-div__box i, .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .main-menu__btn-div i {
+  color: #E8AA31;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .main-menu__btn-div {
+  background-color: #141414;
+  color: #fff;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu #list, .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu #list1, .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu #list2, .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu #list3, .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu #list4, .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu #list5, .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu #list6, .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu #list7, .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu #list8, .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu #list9, .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu #list10 {
+  display: none;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .btn-div__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .btn-div__item div {
+  border: 1px solid;
+  padding: 0 28px;
+  font-size: 13px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .btn-div__range-input-item {
+  padding: 0 20px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .btn-div__range-input-item input {
+  margin: 10px 0;
+  width: 100%;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .btn-div__range-input-item small {
+  font-size: 12px;
+  padding: 0 0 0 100px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .main-menu__nav-item {
+  padding: 0 0 0 20px;
+  margin: 10px;
+  font-size: 12px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .main-menu__nav-item input {
+  margin: 5px 0 0 0;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .main-menu__nav-item span {
+  color: #E8AA31;
+  margin: 0 0 0 10px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .btn-div__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu .btn-div__items div {
+  margin: 20px 0 0 0;
+  border: 1px solid;
+  padding: 0 50px;
+  font-size: 13px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu form {
+  font-size: 13px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu form input {
+  margin: 5px 0 0 0;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu form .bi-star-fill {
+  color: #E8AA31;
+  margin: 0 3px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu form span {
+  margin: 0 0 0 10px;
+  font-weight: 500;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-cards-section {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-cards-section .katalog-cards-section-items__title {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  gap: 20px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-cards-section .katalog-cards-section-items__title .katalog-cards-title__subtitle {
+  position: relative;
+  width: 280px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 0 0 20px 0;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-cards-section .katalog-cards-section-items__title .katalog-cards-title__subtitle img {
+  width: 100%;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-cards-section .katalog-cards-section-items__title .katalog-cards-title__subtitle h3 {
+  margin: 0;
+  font-size: 16px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-cards-section .katalog-cards-section-items__title .katalog-cards-title__subtitle .katalog-cards-subtitle__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-cards-section .katalog-cards-section-items__title .katalog-cards-title__subtitle .katalog-cards-subtitle__title p {
+  color: #ABABAB;
+  margin: 5px 0;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-cards-section .katalog-cards-section-items__title .katalog-cards-title__subtitle .katalog-cards-subtitle__title i {
+  margin: 0 5px;
+  color: #E8AA31;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-cards-section .katalog-cards-section-items__title .katalog-cards-title__subtitle .katalog-cards-subtitle__title .img-group {
+  width: 20px;
+  height: 20px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-cards-section .katalog-cards-section-items__title .katalog-cards-title__subtitle .katalog-cards-subtitle__title .bi-heart {
+  font-size: 22px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-cards-section .katalog-cards-section-items__title .katalog-cards-title__subtitle .small-btn {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background-color: #E8AA31;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-cards-section .katalog-cards-section-items__title .katalog-cards-title__subtitle .small-btn p {
+  margin: 0;
+  padding: 5px 15px;
+  color: #fff;
+  font-weight: 500;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-items-section {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 0 0 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-items-section button {
+  width: 220px;
+  padding: 10px;
+  background-color: #fff;
+  color: #E8AA31;
+  border: 1px solid #E8AA31;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-items-section .katalog-items-section__title {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-items-section .katalog-items-section__title .bi-chevron-left {
+  color: #ABABAB;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-items-section .katalog-items-section__title h4:nth-child(2) {
+  padding: 5px 12px;
+  border-radius: 50%;
+  background-color: #E8AA31;
+}
+.katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-items-section .katalog-items-section__title .bi-chevron-right {
+  color: #E8AA31;
 }
 
 .product {
@@ -529,7 +761,7 @@ body {
 .product .product__item .product__item-content .product__item-content__title {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   margin: 20px 30px 0;
 }
 .product .product__item .product__item-content .product__item-content__title .product__item-content__title__icons {
@@ -576,7 +808,7 @@ body {
 .product .product__item .product__item-content .product__item-content__block {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 .product .product__item .product__item-content .product__item-content__block h1 {
   margin: 0 0 0 30px;
@@ -779,5 +1011,105 @@ body {
   .second-cards-section-items__title-cards .title-cards__subtitle .img-knife {
     width: 100% !important;
     height: 150px !important;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .katalog-section__items {
+    font-size: 13px;
+    width: 900px !important;
+  }
+  .katalog-section__items .navigation-item__select {
+    width: 200px !important;
+  }
+  .katalog-section__items .katalog-section-items__main-menu {
+    width: 200px !important;
+  }
+  .katalog-section__items .katalog-section-items__main-menu .btn-div__box, .katalog-section__items .katalog-section-items__main-menu .main-menu__btn-div {
+    width: 200px !important;
+    font-size: 11px !important;
+  }
+  .katalog-section__items .katalog-cards-title__subtitle {
+    width: 200px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .katalog-section__items {
+    width: 740px !important;
+  }
+  .katalog-section__items .katalog-section-items__main-menu {
+    width: 300px !important;
+  }
+  .katalog-section__items .katalog-section-items__main-menu .btn-div__box, .katalog-section__items .katalog-section-items__main-menu .main-menu__btn-div {
+    width: 300px !important;
+    font-size: 11px !important;
+  }
+  .katalog-section__items .katalog-cards-section-items__title {
+    grid-template-columns: auto auto !important;
+    height: 400px !important;
+    overflow-y: hidden;
+  }
+  .katalog-section__items .katalog-cards-title__subtitle {
+    width: 200px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .katalog-section__items {
+    width: 430px !important;
+  }
+  .katalog-section__items .katalog-section-items__main-menu, .katalog-section__items .btn-div__box, .katalog-section__items .main-menu__btn-div {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 551px) {
+  .katalog-section__items {
+    width: 330px !important;
+  }
+  .katalog-section__items .katalog-section-items__main-menu, .katalog-section__items .btn-div__box, .katalog-section__items .main-menu__btn-div {
+    display: none !important;
+  }
+  .katalog-section__items .katalog-cards-section-items__title {
+    grid-template-columns: auto !important;
+    height: 360px !important;
+    margin: 0 0 0 10px;
+  }
+  .katalog-section__items .katalog-cards-title__subtitle {
+    width: 300px !important;
+  }
+  .katalog-section__items .katalog-section-items__subtitle {
+    width: 300px !important;
+    text-align: center;
+  }
+  .katalog-section__items .subtitle__navigation-item {
+    flex-direction: column;
+    line-height: 4;
+    padding: 0 47px;
+  }
+  .katalog-section__items .katalog-items-section {
+    flex-direction: column;
+    width: 250px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .katalog-section__items {
+    width: 300px !important;
+    margin: 0 0 0 20px !important;
+  }
+  .katalog-section__items .katalog-section-items__main-menu, .katalog-section__items .btn-div__box, .katalog-section__items .main-menu__btn-div {
+    display: none !important;
+  }
+  .katalog-section__items .subtitle__navigation-item {
+    padding: 0 30px !important;
+  }
+  .katalog-section-items__main-title, .katalog-section__items {
+    width: 250px !important;
+  }
+  .katalog-cards-section-items__title .katalog-cards-title__subtitle {
+    width: 250px !important;
+  }
+  .katalog-section-items__subtitle {
+    width: 280px !important;
+  }
+  .katalog-section-items__subtitle h1 {
+    width: 250px !important;
   }
 }/*# sourceMappingURL=main.css.map */
