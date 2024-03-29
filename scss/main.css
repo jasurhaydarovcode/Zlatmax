@@ -1391,6 +1391,29 @@ body {
   text-align: left;
 }
 
+@media only screen and (max-width: 600px) {
+  .text-center {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .navbar__items {
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .text-center .navbar__items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container_katalok {
+    grid-template-columns: auto;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .zlatmax__navbar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media only screen and (max-width: 1091px) {
   .KnifeGrid {
     grid-template-columns: auto auto;
