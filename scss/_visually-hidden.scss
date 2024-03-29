@@ -11,49 +11,49 @@
 }
 
 
-// .catalog-header__blocks{ 
-//     width: 100%; 
-//     padding-bottom: 10px; 
-//     background-color: black; 
-//     text-decoration: none; 
-//     color: aliceblue; 
+.catalog-header__blocks{ 
+    width: 100%; 
+    padding-bottom: 10px; 
+    background-color: black; 
+    text-decoration: none; 
+    color: aliceblue; 
  
-//     .catalog-header__block{ 
-//         list-style: none; 
-//         display: grid; 
-//         justify-content: center; 
-//         grid-template-columns: auto auto auto auto auto; 
-//         font-size: 17px; 
-//         font-weight: 700; 
-//         text-decoration: none; 
-//         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-//     } 
+    .catalog-header__block{ 
+        list-style: none; 
+        display: grid; 
+        justify-content: center; 
+        grid-template-columns: auto auto auto auto auto; 
+        font-size: 17px; 
+        font-weight: 700; 
+        text-decoration: none; 
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    } 
  
-//     .catalog-header__list a{ 
-//         list-style: none; 
-//         color: aliceblue; 
-//         text-decoration: none; 
+    .catalog-header__list a{ 
+        list-style: none; 
+        color: aliceblue; 
+        text-decoration: none; 
  
-//     } 
+    } 
  
-//     .catalog-header__all{ 
-//         color: rgba(232, 170, 49, 1); 
-//         text-decoration: none; 
-//         display: flex; 
-//         justify-content: center; 
-//     } 
-// } 
+    .catalog-header__all{ 
+        color: rgba(232, 170, 49, 1); 
+        text-decoration: none; 
+        display: flex; 
+        justify-content: center; 
+    } 
+} 
  
-// @media only screen and (max-width: 600px) { 
-//     .catalog-header__block { 
-//         grid-template-columns: auto; 
-//     } 
-// } 
+@media only screen and (max-width: 600px) { 
+    .catalog-header__block { 
+        grid-template-columns: auto; 
+    } 
+} 
  
  
-// @media only screen and (min-width: 600px) and (max-width: 900px) { 
-//     .catalog-header__block { 
-//         grid-template-columns: auto; 
-//         grid-template-rows: auto; 
-//     } 
-// }
+@media only screen and (min-width: 600px) and (max-width: 900px) { 
+    .catalog-header__block { 
+        grid-template-columns: auto; 
+        grid-template-rows: auto; 
+    } 
+}
