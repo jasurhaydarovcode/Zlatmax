@@ -21,23 +21,74 @@ html(lang="en")
             
     body 
         // * =============== Section-1 Nodir's ===============
-        //- section.navbar__top__item
-        //-         ul.navbar__items
-        //-             li.nav__items__item
-        //-                 a.nav__items__item__link(href='#') O нас
-        //-             li.nav__items__item
-        //-                 a.nav__items__item__link(href='#') Оплата и доставка
-        //-             li.nav__items__item
-        //-                 a.nav__items__item__link(href='#') Новости
-        //-             li.nav__items__item
-        //-                 a.nav__items__item__link(href='#') Контакты
-        //-             .nav__items__item7
-        //-                 img(src="../img/headir/avatar.png", alt="")
-        //-                 a.nav-link(href='#')  Личный кабинет
+        section.navbar__top__item
+                ul.navbar__items
+                    li.nav__items__item
+                        a.nav__items__item__link(href='#') O нас
+                    li.nav__items__item
+                        a.nav__items__item__link(href='#') Оплата и доставка
+                    li.nav__items__item
+                        a.nav__items__item__link(href='#') Новости
+                    li.nav__items__item
+                        a.nav__items__item__link(href='#') Контакты
+                    li.nav__items__item
+                        .nav__items__item__avatar
+                            img.avatar(src="../img/header/avatar.png", alt="")
+                            a.nav__items__item__link(href='#') Личный кабинет
+        .zlatmax__navbar
+            .zlatmax__navbar__card
+                img.zlatmax__navbar__img(src="../img/header/logo.png", alt="")
+            .zlatmax__navbar__card
+                input.zlatmax__navbar__search(type="search", name="search", placeholder="Search", autocomplete="off")
+            .zlatmax__navbar__card 
+                img.location(src="../img/header/location.png", alt="")
+            .zlatmax__navbar__card
+                img.savat(src="../img/header/savat.png", alt="")
+        .container_katalok
+            ul.text-center
+                li.nav-item
+                    a.nav-link(href="#") Каталог ножей
+                li.nav-item
+                    a.nav-link(href="#") Клинковое оружие
+                li.nav-item
+                    a.nav-link(href="#") Сувенирные изделия
+                li.nav-item
+                    a.nav-link(href="#") Фонари ARMYTEK
+                li.nav-item
+                    a.nav-link(href="#") Сопуствующие товары
         // * =============== Section-2 Jasur's ===============
-        .container
+        // ! Header //
+        header.KnifeBg
+            div.KnifeBg__TextL
+                h4.KnifeBg-TextL__h4 Интернет магазин сертифицированных  
+                h4.KnifeBg-TextL__h4-2 златоустовских ножей
+                p.KnifeBg-TextL__p Добро пожаловать на официальный сайт «ЗЛАТМАКС»! В нашем магазине представлен наиболее широкий выбор Златоустовских ножей от Златоустовских Оружейных Фабрик и компаний, мы являемся официальными поставщиками.
+                button.KnifeBg-TextL__btn Подробнее
+            div.KnifeBg-TextL__Sell
+                div.KnifeBg-TextL-Sell__Card
+                    img(src="../img/headir/pack/1.png", alt="")
+                    p.KnifeBg-TextL-Sell-Card-P Гарантия 100% возврата
+                        br 
+                        span денежных средств
+                div.KnifeBg-TextL-Sell__Card
+                    img(src="../img/headir/pack/2.png", alt="")
+                    p.KnifeBg-TextL-Sell-Card-P Доставка по России, 
+                        br 
+                        span Казахстану и Белоруссии
+                div.KnifeBg-TextL-Sell__Card
+                    img(src="../img/headir/pack/3.png", alt="")
+                    p.KnifeBg-TextL-Sell-Card-P Возможность оформление 
+                        br 
+                        span заказа без регистрации.
+                div.KnifeBg-TextL-Sell__Card.Four-IMG
+                    img(src="../img/headir/pack/4.png", alt="")
+                    p.KnifeBg-TextL-Sell-Card-P Скидки постоянным
+                        br 
+                        span покупателям. 
+        // ! Header Ending //
+        section.container
             div.KnifeGrid
-                div.KnifeGrid__Card
+                div.KnifeGrid__Card.h-rotate 
                     div.KnifeGrid-Card__Text
                         a(href="") Каталог ножей
                         div.KnifeGrid-Card-Text__line
@@ -45,7 +96,7 @@ html(lang="en")
                             li Разделочные
                             li Туристические
                             li Oхотничьи
-                div.KnifeGrid__Card2
+                div.KnifeGrid__Card2.h-rotate 
                     div.KnifeGrid-Card__Text
                         a(href="") Среднеклинковое оружие
                         div.KnifeGrid-Card-Text__line
@@ -53,7 +104,7 @@ html(lang="en")
                             li Разделочные
                             li Туристические
                             li Oхотничьи
-                div.KnifeGrid__Card3
+                div.KnifeGrid__Card3.h-rotate 
                     div.KnifeGrid-Card__Text
                         a(href="") Длинноклинковое оружие
                         div.KnifeGrid-Card-Text__line
@@ -61,7 +112,7 @@ html(lang="en")
                             li Разделочные
                             li Туристические
                             li Oхотничьи
-                div.KnifeGrid__Card4
+                div.KnifeGrid__Card4.h-rotate 
                     div.KnifeGrid-Card__Text
                         a(href="") Сувенирные изделия
                         div.KnifeGrid-Card-Text__line
@@ -69,7 +120,7 @@ html(lang="en")
                             li Разделочные
                             li Туристические
                             li Oхотничьи
-                div.KnifeGrid__Card5
+                div.KnifeGrid__Card5.h-rotate 
                     div.KnifeGrid-Card__Text
                         a(href="") Сопутствующие товары
                         div.KnifeGrid-Card-Text__line
@@ -77,7 +128,7 @@ html(lang="en")
                             li Разделочные
                             li Туристические
                             li Oхотничьи
-                div.KnifeGrid__Card6    
+                div.KnifeGrid__Card6.h-rotate    
                     div.KnifeGrid-Card__Text
                         a(href="") Заточка и полировка ножей
                         div.KnifeGrid-Card-Text__line
