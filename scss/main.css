@@ -1651,7 +1651,7 @@ body {
 }
 @media only screen and (max-width: 551px) {
   .katalog-section__items {
-    width: 330px !important;
+    width: 280px !important;
   }
   .katalog-section__items .katalog-section-items__main-menu, .katalog-section__items .btn-div__box, .katalog-section__items .main-menu__btn-div {
     display: none !important;
@@ -1662,10 +1662,10 @@ body {
     margin: 0 0 0 10px;
   }
   .katalog-section__items .katalog-cards-title__subtitle {
-    width: 300px !important;
+    width: 250px !important;
   }
   .katalog-section__items .katalog-section-items__subtitle {
-    width: 300px !important;
+    width: 250px !important;
     text-align: center;
   }
   .katalog-section__items .subtitle__navigation-item {
@@ -1677,29 +1677,11 @@ body {
     flex-direction: column;
     width: 250px !important;
   }
-}
-@media only screen and (max-width: 400px) {
-  .katalog-section__items {
-    width: 300px !important;
-    margin: 0 0 0 20px !important;
-  }
-  .katalog-section__items .katalog-section-items__main-menu, .katalog-section__items .btn-div__box, .katalog-section__items .main-menu__btn-div {
-    display: none !important;
-  }
-  .katalog-section__items .subtitle__navigation-item {
-    padding: 0 30px !important;
-  }
-  .katalog-section-items__main-title, .katalog-section__items {
-    width: 250px !important;
-  }
-  .katalog-cards-section-items__title .katalog-cards-title__subtitle {
-    width: 250px !important;
-  }
   .katalog-section-items__subtitle {
     width: 280px !important;
   }
-  .katalog-section-items__subtitle h1 {
-    width: 250px !important;
+  .katalog-section-items__subtitle ul li, .katalog-section-items__subtitle select {
+    display: none;
   }
 }
 @media only screen and (max-width: 1400px) {
