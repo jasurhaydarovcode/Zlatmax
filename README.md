@@ -29,7 +29,7 @@
 | Asilbek Shax | | 5
 | Samira | | 6
 | Mirhamid | | 7
-| Nodir | | 8
+| ~Nodir~ | | 8
 | Asilbek | Cards | 9
 | Hasan | Footer | 10
 
