@@ -30,7 +30,7 @@
 | Samira | | 6
 | Mirhamid | | 7
 | Nodir | | 8
-| Asilbek | | 9
+| Asilbek | Cards | 9
 | Hasan | Footer | 10
 
 <img src="./Watch/Watch.png">
