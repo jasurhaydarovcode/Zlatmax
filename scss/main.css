@@ -803,7 +803,7 @@ body {
   margin: 0 auto;
 }
 .katalog-section .katalog-section__items .katalog-section-items__subtitle {
-  width: 100%;
+  width: 94.5%;
 }
 .katalog-section .katalog-section__items .katalog-section-items__subtitle .subtitle__navigation-item {
   display: flex;
@@ -839,6 +839,8 @@ body {
 }
 .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-menu {
   width: 280px;
+  height: -moz-max-content;
+  height: max-content;
   display: block;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -988,7 +990,7 @@ body {
   font-weight: 500;
 }
 .katalog-section .katalog-section__items .katalog-section-items__main-title .katalog-section-items__main-text .katalog-items-section {
-  width: 100%;
+  width: 93%;
   height: -moz-max-content;
   height: max-content;
   margin: 0 0 50px 0;
@@ -1809,7 +1811,7 @@ body {
   }
   .katalog-section__items .katalog-cards-section-items__title {
     grid-template-columns: auto auto !important;
-    height: 400px !important;
+    height: 365px !important;
     overflow-y: hidden;
   }
   .katalog-section__items .katalog-cards-title__subtitle {

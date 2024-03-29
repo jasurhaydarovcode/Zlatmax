@@ -5,7 +5,7 @@
         width: 90%;
         margin: 0 auto;
         .katalog-section-items__subtitle{
-            width: 100%;
+            width: 94.5%;
             .subtitle__navigation-item{
                 @include flex-between;
                 .navigation-item__lists{
@@ -33,6 +33,7 @@
             @include flex-between-gap;
             .katalog-section-items__main-menu{
                 width: 280px;
+                height: max-content;
                 display: block;
                 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
                 .btn-div__box, .main-menu__btn-div{
@@ -168,7 +169,7 @@
                     }
                 }
                 .katalog-items-section{
-                    width: 100%;
+                    width: 93%;
                     height: max-content;
                     margin: 0 0 50px 0;
                     @include flex-between-center;
