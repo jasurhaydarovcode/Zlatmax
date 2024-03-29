@@ -108,7 +108,7 @@ body {
 
 .navbar__top__item {
   width: 100%;
-  background: rgb(20, 20, 20);
+  background: rgb(0, 0, 0);
 }
 .navbar__top__item .nav__items__item__link {
   padding: 16px;
@@ -182,9 +182,10 @@ body {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: rgb(20, 20, 20);
+  background: rgb(0, 0, 0);
 }
 .container_katalok .text-center {
+  list-style: none;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   justify-content: center;

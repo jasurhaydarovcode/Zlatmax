@@ -1,6 +1,6 @@
 .navbar__top__item{
     width: 100%;
-    background: rgba(20, 20, 20, 1);
+    background: rgb(0, 0, 0);
 
     .nav__items__item__link{
         padding: 16px;
@@ -87,8 +87,9 @@
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: rgba(20, 20, 20, 1);
+    background: rgb(0, 0, 0);
     .text-center{
+        list-style: none;
         display: grid;
         grid-template-columns: auto auto auto auto auto;
         justify-content: center;
