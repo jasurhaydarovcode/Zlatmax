@@ -43,6 +43,14 @@ body {
   max-width: 800px;
   padding-left: 5%;
 }
+.KnifeBg .KnifeBg__TextL .KnifeBg-TextL__Img {
+  position: absolute;
+  left: 900px;
+}
+.KnifeBg .KnifeBg__TextL .KnifeBg-TextL__Img img {
+  width: 347px;
+  height: 499;
+}
 .KnifeBg .KnifeBg__TextL .KnifeBg-TextL__h4 {
   color: #fff;
   font-size: 27px;
@@ -1233,6 +1241,11 @@ body {
   }
   .KnifeBg-TextL__Sell .Four-IMG {
     margin-left: -10px;
+  }
+}
+@media only screen and (max-width: 1256px) {
+  .KnifeBg-TextL__Img {
+    display: none;
   }
 }
 @media only screen and (max-width: 1200px) {
