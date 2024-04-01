@@ -90,6 +90,7 @@ body {
 .KnifeBg .KnifeBg__TextL .KnifeBg-TextL__Img img {
   width: 347px;
   height: 499;
+  margin-top: -30px;
 }
 .KnifeBg .KnifeBg__TextL .KnifeBg-TextL__h4 {
   color: #fff;
