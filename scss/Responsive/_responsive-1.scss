@@ -1,17 +1,27 @@
 @media only screen and (max-width: 600px) {
+    .zlatmax__navbar{
+        grid-template-columns: auto;
+    }
     .text-center {
         grid-template-columns: repeat(1, 1fr);
     }
     .navbar__items{
         display: none;
     }
+    .container_katalok{
+        display: none !important;
+    }
+    .navbar__items{
+        display: none !important;
+    }
 }
 
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
-    .text-center .navbar__items{
+    .text-center{
         grid-template-columns: repeat(1, 1fr);
     }
+
 
 }
 
