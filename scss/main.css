@@ -276,9 +276,8 @@ body {
 }
 .KnifeGrid .KnifeGrid__Card .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy {
   list-style: none;
-  margin-left: -37px;
+  margin-left: -32px;
   margin-top: 30px;
-  width: 170px;
 }
 .KnifeGrid .KnifeGrid__Card .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy li::before {
   content: "●";
@@ -317,8 +316,7 @@ body {
 .KnifeGrid .KnifeGrid__Card2 .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy {
   list-style: none;
   margin-left: -37px;
-  margin-top: 30px;
-  width: 170px;
+  margin-top: 15px;
 }
 .KnifeGrid .KnifeGrid__Card2 .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy li::before {
   content: "●";
@@ -354,8 +352,7 @@ body {
 .KnifeGrid .KnifeGrid__Card3 .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy {
   list-style: none;
   margin-left: -37px;
-  margin-top: 30px;
-  width: 170px;
+  margin-top: 15px;
 }
 .KnifeGrid .KnifeGrid__Card3 .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy li::before {
   content: "●";
@@ -391,8 +388,7 @@ body {
 .KnifeGrid .KnifeGrid__Card4 .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy {
   list-style: none;
   margin-left: -37px;
-  margin-top: 30px;
-  width: 170px;
+  margin-top: 15px;
 }
 .KnifeGrid .KnifeGrid__Card4 .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy li::before {
   content: "●";
@@ -428,8 +424,7 @@ body {
 .KnifeGrid .KnifeGrid__Card5 .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy {
   list-style: none;
   margin-left: -37px;
-  margin-top: 30px;
-  width: 170px;
+  margin-top: 15px;
 }
 .KnifeGrid .KnifeGrid__Card5 .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy li::before {
   content: "●";
@@ -465,8 +460,7 @@ body {
 .KnifeGrid .KnifeGrid__Card6 .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy {
   list-style: none;
   margin-left: -37px;
-  margin-top: 30px;
-  width: 170px;
+  margin-top: 15px;
 }
 .KnifeGrid .KnifeGrid__Card6 .KnifeGrid-Card__Text .KnifeGrid-Card-Text__Kategoriy li::before {
   content: "●";
