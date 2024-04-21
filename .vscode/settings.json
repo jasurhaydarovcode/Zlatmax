@@ -7,6 +7,5 @@
         "**/.DS_Store": true,
         "**/Thumbs.db": true
     },
-    "hide-files.files": [],
-    "liveServer.settings.port": 5502
+    "hide-files.files": []
 }
