@@ -33,4 +33,4 @@
 | Asilbek | Cards | 9
 | Hasan | Footer | 10
 
-<img src="./Watch/Watch.png">
+<img src=".github/Watch.png">
